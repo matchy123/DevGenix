@@ -1,0 +1,104 @@
+/*******************************************************/
+/******************** ## FAQs Area ********************/
+/*******************************************************/
+.accordion-item
+    border-radius: 7px
+    margin-bottom: 10px
+    background: $lighter-color
+    border: 1px solid $border-color
+    &:first-of-type
+        border-top-left-radius: 7px
+        border-top-right-radius: 7px
+        .accordion-button
+            border-top-left-radius: 7px
+            border-top-right-radius: 7px
+    &:last-of-type
+        border-bottom-left-radius: 7px
+        border-bottom-right-radius: 7px
+        .accordion-button
+            border-bottom-left-radius: 7px
+            border-bottom-right-radius: 7px
+    &:not(:last-child)
+        margin-bottom: 10px
+    &:not(:first-of-type)
+        border-top: 1px solid $border-color
+    .accordion-button
+        border: none
+        font-size: 18px
+        box-shadow: none
+        font-weight: 700
+        line-height: 1.2
+        align-items: center
+        color: $heading-color
+        background: transparent
+        padding: 19px 15px 17px 30px
+        justify-content: space-between
+        +res-bl(md)
+            font-size: 16px
+        +res-bl(ms)
+            padding: 12px 10px 12px 20px
+        &:after
+            flex: none
+            font-size: 14px
+            font-weight: 600
+            margin-top: -2px
+            content: "\f054"
+            margin-left: 6px
+            color: $base-color
+            text-align: center
+            +circle(white, 40px)
+            transform: rotate(90deg)
+            border: 1px solid $border-color
+            font-family: "Font Awesome 5 Pro"
+            +res-bl(ms)
+                +size(30px)
+                font-size: 12px
+                line-height: 30px
+        &.collapsed
+            &:after
+                transform: rotate(0deg)
+            
+.accordion-body
+    padding: 0 30px 5px
+    +res-bl(ms)
+        font-size: 15px
+        line-height: 1.6
+        padding: 0 20px 0
+    .list-style-two
+        display: flex
+        flex-wrap: wrap
+        li
+            font-size: 16px
+            font-weight: 400
+            margin-right: 70px
+            +res-bl(xl)
+                margin-right: 30px
+            &:before
+                +size(20px)
+                font-size: 10px
+                margin-top: 2px
+                line-height: 20px
+                background: $primary-color
+            
+.faq-tab-wrap
+    &.fixed
+        +res-ab(lg)
+            top: 120px
+            position: fixed
+            max-width: 410px
+            background: white
+        +res-bt(lg, xl)
+            max-width: 300px
+        
+.faq-nav
+    li
+        margin-bottom: 10px
+        a
+            @extend %h6
+            padding: 8px 20px
+            border-radius: 10px
+            display: inline-block
+            border: 1px solid $border-color
+            &.active
+                background: $primary-color
+                border-color: $primary-color

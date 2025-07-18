@@ -1,0 +1,319 @@
+/*******************************************************/
+/***************** ## Testimonials Area *****************/
+/*******************************************************/
+.testimonial-item
+    padding: 30px 50px
+    border-radius: 10px
+    margin-bottom: 30px
+    background: $lighter-color
+    border: 1px solid $border-color
+    +res-bl(ms)
+        +gapLR(padding, 25px)
+    .author-logo
+        display: flex
+        margin-bottom: 30px
+        align-items: center
+        justify-content: space-between
+        .author
+            padding: 2.5px
+            border-radius: 10px
+            border: 1px solid $border-color
+            background: rgba($primary-rgb, 0.1)
+            img
+                max-width: 60px
+                border-radius: 50%
+        .quote
+            line-height: 1
+            font-size: 55px
+            margin-right: 15px
+            color: $primary-color
+            +res-bl(xs)
+                font-size: 45px
+    .text
+        font-weight: 500
+        font-size: $h6-size
+        color: $heading-color
+        +res-bl(xs)
+            font-size: 16px
+    .quote-title
+        display: flex
+        flex-wrap: wrap
+        margin-top: 18px
+        align-items: center
+        .author
+            margin-top: 5px
+            max-width: 50px
+            margin-right: 15px
+            img
+                border-radius: 50%
+        .quote
+            font-size: 35px
+            margin-top: 5px
+            margin-right: 15px
+            color: $primary-color
+        h6
+            margin-bottom: 0
+            margin-top: 5px
+        .designation
+            margin-top: 5px
+    &.style-two
+        background: white
+        .author-logo
+            margin-bottom: 20px
+        .text
+            font-weight: 700
+            
+    &.style-three
+        padding: 0
+        border: none
+        background: transparent
+        .author-logo
+            margin-bottom: 12px
+        .text
+            margin-bottom: 20px
+            padding-bottom: 24px
+            border-bottom: 1px solid $border-color
+            
+    &.style-four
+        padding: 0
+        border: none
+        border-radius: 0
+        background: transparent
+        .author-logo
+            margin-bottom: 20px
+            .quote
+                margin-right: 0
+                color: $secondary-color
+                +res-ab(sm)
+                    font-size: 75px
+        .text
+            font-size: 35px
+            font-weight: 700
+            line-height: 1.45
+            letter-spacing: -0.03em
+            +res-bt(xl, xxl)
+                font-size: 30px
+            +res-bl(md)
+                font-size: 30px
+            +res-bl(sm)
+                font-size: 25px
+                line-height: 1.6
+            +res-bl(xs)
+                font-size: 22px
+        .quote-title
+            margin-top: 25px
+            padding-bottom: 50px
+            border-bottom: 1px solid $border-color
+    
+.testimonials-active
+    +gapLR(margin, -15px)
+    .testimonial-item
+        +gapLR(margin, 15px)
+    .slick-dots
+        margin-top: 30px
+        
+.testimonials-three-active
+    .slick-dots
+        margin-top: 20px
+        li
+            background: $primary-color
+            &:before
+                border-color: $primary-color
+            
+.text-center
+    .testimonial-item.style-four
+        .quote-title,
+        .author-logo
+            justify-content: center
+            
+.testi-small-images
+    .image
+        display: flex
+        justify-content: center
+        &:not(:last-child)
+            margin-bottom: 20px
+        &:nth-child(odd)
+            animation: leftRightOne 5s infinite
+            img
+                margin-right: 20px
+                border-radius: 10px
+        &:nth-child(even)
+            animation: leftRightTwo 5s infinite
+            img
+                margin-left: 20px
+                border-radius: 10px
+        
+/* Testimonials Two */
+.testimonials-and-clients
+    padding: 75px 75px 60px
+    position: relative
+    +res-bl(xl)
+        +gapLR(padding, 50px)
+    +res-bl(ms)
+        +gapLR(padding, 20px)
+    &:after,
+    &:before
+        content: ''
+        height: 100px
+        position: absolute
+        border-radius: 10px
+        border: 1px solid $border-color
+    &:before
+        left: 20px
+        z-index: -1
+        bottom: -20px
+        background: #F8F8F7
+        width: calc(100% - 40px)
+    &:after
+        left: 40px
+        z-index: -2
+        bottom: -40px
+        background: #F2F1EF
+        width: calc(100% - 80px)
+
+.testimonials-content
+    max-width: 420px
+        
+.testimonials-content-two
+    max-width: 495px
+        
+.testimonial-dots
+    .slick-dots
+        justify-content: flex-start
+        li
+            &:first-child
+                margin-left: 0
+                &.slick-active
+                    margin-left: 8px
+                
+.testimonials-two-active
+    max-width: 630px
+    +res-ab(xl)
+        margin-left: auto
+    .testimonial-item
+        margin-right: 1px
+        
+/* Testimonials Four */
+.testimonials-four-image-part
+    padding-left: 10%
+    padding-right: 5%
+    position: relative
+    display: inline-block
+    .shape
+        position: absolute
+        &.icon
+            +absmiddle()
+            font-size: 80px
+            margin-left: 2.5%
+            color: $heading-color
+            +circle($secondary-color, 150px)
+            +res-bl(ms)
+                +size(100px)
+                font-size: 45px
+                line-height: 100px
+        &.one,
+        &.two,
+        &.three,
+        &.four
+            padding: 7px
+            max-width: 20%
+            background: white
+            border-radius: 50%
+            animation: zoomInOut 4s infinite
+            border: 1px solid $border-color
+            img
+                border-radius: 50%
+        &.one
+            top: 5%
+            left: 15%
+        &.two
+            top: 4%
+            right: 6%
+            animation-delay: 3s
+        &.three
+            bottom: 5%
+            left: 13%
+            animation-delay: 1s
+        &.four
+            right: 7%
+            bottom: 4%
+            animation-delay: 2s
+        &.five
+            left: 0
+            top: 40%
+            animation: down-up-one 8s infinite
+            +res-bl(ms)
+                animation: none
+        &.six
+            right: 0
+            bottom: 40%
+            animation: upDownLeft 10s infinite
+            +res-bl(ms)
+                bottom: 20%
+                animation: none
+        
+/* Testimonials Five */
+.testimonials-content-five
+    border-radius: 7px
+    padding: 50px 70px
+    background: $lighter-color
+    border: 1px solid $border-color
+    +res-bl(ms)
+        +gapLR(padding, 35px)
+    +res-bl(xs)
+        +gapLR(padding, 15px)
+    .testimonial-item.style-four
+        .author-logo
+            .quote
+                color: $primary-color
+        .quote-title
+            padding-bottom: 0
+            border-bottom: none
+    .slick-dots li
+        background: $primary-color
+        &:before
+            border-color: $primary-color
+        
+.testimonials-image-and-customers
+    max-width: max-content
+    > img
+        border-radius: 7px
+    position: relative
+    .trusted-client-part
+        +poRB(0)
+        max-width: 330px
+        padding: 40px 45px
+        border-radius: 7px 0
+        background: $primary-color
+        +res-bl(ms)
+            padding: 20px
+            max-width: 230px
+            h4
+                font-size: 20px
+            hr
+                margin-top: 15px
+                margin-bottom: 20px
+        +res-bl(xs)
+            max-width: 190px
+            h4
+                font-size: 14px
+        hr
+            +container(80%)
+            background: white
+        .trusted-clients
+            img
+                +size(55px)
+                +res-bl(ms)
+                    +size(40px)
+            i
+                font-size: 20px
+                +circle(white, 55px)
+                color: $heading-color
+                +res-bl(ms)
+                    +size(40px)
+                    font-size: 16px
+                    line-height: 40px
+                
+.text-center
+    .trusted-clients
+        justify-content: center

@@ -1,0 +1,454 @@
+/*******************************************************/
+/******************** ## Blog Area ********************/
+/*******************************************************/
+.blog-meta
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    li
+        font-size: 14px
+        font-weight: 500
+        margin-bottom: 2px
+        a
+            &:not(.cagetory)
+                color: $heading-color
+            &.category
+                line-height: 1.5
+                padding: 3px 17px
+                border-radius: 7px
+                color: $primary-color
+                display: inline-block
+                border: 1px solid $border-color
+        &:not(:last-child)
+            margin-right: 15px
+
+.blog-item
+    margin: -1px
+    padding: 10px
+    border: 1px solid $border-color
+    .image
+        img
+            width: 100%
+            border-radius: 5px
+    .content
+        padding: 35px 30px 30px 35px
+        +res-bl(xl)
+            padding-left: 30px
+        +res-bl(xs)
+            padding-left: 10px
+            padding-right: 5px
+        .blog-meta
+            margin-bottom: 10px
+        h5
+            margin-bottom: 20px
+            letter-spacing: -0.5px
+            +res-bl(xs)
+                font-size: 20px
+    .theme-btn
+        font-size: 14px
+        margin-top: 8px
+        padding: 7px 27px
+        
+    &.style-two
+        background: white
+        margin-bottom: 30px
+        border-radius: 10px
+        .content
+            padding: 25px 30px 15px 30px
+            +res-bl(ms)
+                +gapLR(padding, 15px)
+            .blog-meta
+                margin-bottom: 5px
+                li
+                    font-weight: 700
+                    color: $primary-color
+                    font-family: $heading-font
+                    i
+                        margin-right: 5px
+                    a
+                        color: $primary-color
+            h5
+                margin-bottom: 15px
+                
+    &.style-three
+        padding: 0
+        border: none
+        border-radius: 0
+        margin-bottom: 30px
+        .content
+            padding: 22px 0 0
+            .blog-meta
+                margin-bottom: 5px
+            h5
+                letter-spacing: 0
+                margin-bottom: 14px
+                
+    &.style-four
+        padding: 50px
+        +res-bl(ms)
+            padding: 25px
+        .content
+            padding: 50px 0 0
+            +res-bl(ms)
+                padding-top: 30px
+            .blog-meta
+                margin-bottom: 15px
+                li
+                    &:not(:first-child)
+                        font-size: 16px
+                        font-weight: 400
+                        &:before
+                            content: ''
+                            +size(4px)
+                            opacity: 0.3
+                            margin-left: 5px
+                            border-radius: 50%
+                            margin-right: 20px
+                            display: inline-block
+                            background: $heading-color
+                            transform: translateY(-3px)
+            h5
+                font-size: 24px
+                margin-bottom: 18px
+                +res-bl(xs)
+                    font-size: 20px
+                a:hover
+                    text-decoration: underline
+            .read-more
+                margin-top: -3px
+                &:hover
+                    color: $primary-color
+        &.image-left
+            +res-ab(md)
+                display: flex
+                align-items: center
+                .image
+                    flex: none
+                    max-width: 28%
+                    margin-right: 10%
+                .content
+                    padding-top: 0
+                    h5
+                        font-size: 20px
+                        margin-bottom: 15px
+        
+/* Blog Timeline */
+.blog-timeline-item
+    margin: -1px
+    position: relative
+    padding: 30px 70px 25px
+    border: 1px solid $border-color
+    +res-ab(lg)
+        display: flex
+        align-items: flex-start
+    +res-bl(xl)
+        +gapLR(padding, 45px)
+    +res-bl(ms)
+        +gapLR(padding, 25px)
+    .date
+        flex: none
+        min-width: 22%
+        display: block
+        font-size: 14px
+        margin-bottom: 5px
+        i
+            margin-right: 7px
+    .content
+        h4
+            max-width: 390px
+            letter-spacing: -0.03em
+            +res-bl(ms)
+                font-size: 20px
+            +res-bl(xs)
+                font-size: 18px
+        .hover-content
+            display: none
+            +res-ab(lg)
+                margin-top: -40px
+                margin-right: 15px
+            .text
+                +res-bl(lg)
+                    padding-top: 5px
+                    padding-bottom: 10px
+                +res-ab(lg)
+                    float: left
+                    width: 390px
+                    max-width: 55%
+                    margin-top: 50px
+                    display: inline-flex
+                    flex-direction: column
+            .image
+                margin-bottom: 15px
+                +res-ab(lg)
+                    width: 300px
+                    max-width: 35%
+                    margin-left: 9%
+                    display: inline-flex
+                    flex-direction: column
+    .detail-btn
+        font-size: 30px
+        margin-top: 20px
+        margin-left: auto
+        transform: rotate(45deg)
+        +res-bl(lg)
+            margin-top: 0
+            +poRT(40px, 25px)
+        +res-bl(ms)
+            right: 25px
+            font-size: 25px
+
+            
+/* Blog Standard */
+.blog-standard-item
+    margin-bottom: 50px
+    .image
+        margin-bottom: 30px
+    .content
+        .project-tags
+            a
+                font-weight: 700
+                color: $base-color
+                margin: 0 15px 10px 3px
+                +res-ab(ms)
+                    font-size: 16px
+                    padding: 6px 20px
+                    border-radius: 10px
+        h3
+            margin-bottom: 15px
+            letter-spacing: -0.03em
+            +res-bl(xl)
+                font-size: 26px
+            +res-bl(sm)
+                font-size: 22px
+            +res-bl(ms)
+                font-size: 20px
+            +res-bl(xs)
+                font-size: 18px
+        .blog-meta
+            padding-bottom: 22px
+            li
+                +res-ab(sm)
+                    font-size: 16px
+                    margin-right: 40px
+        .theme-btn
+            color: white
+            font-size: 14px
+            padding: 5px 25px
+            
+/* Blog Details */
+.blog-details-content
+    .project-tags
+        a
+            font-weight: 700
+            color: $base-color
+            margin: 0 15px 10px 3px
+            +res-ab(ms)
+                font-size: 16px
+                padding: 6px 20px
+                border-radius: 10px
+    h1, h2, h3, h4, h5
+        margin-bottom: 15px
+                
+blockquote
+    @extend %h4
+    position: relative
+    border-radius: 7px
+    letter-spacing: -0.03em
+    background: $lighter-color
+    padding: 20px 55px 25px 145px
+    border: 1px solid $border-color
+    +res-bl(md)
+        font-size: 18px
+        padding-left: 80px
+        padding-right: 20px
+    +res-bl(ms)
+        font-size: 16px
+        padding-left: 25px
+        padding-right: 20px
+    i
+        line-height: 1
+        font-size: 50px
+        font-weight: 300
+        +poLT(55px, 30px)
+        +res-bl(md)
+            top: 25px
+            left: 30px
+            font-size: 35px
+        +res-bl(ms)
+            display: none !important
+    .blockquote-footer
+        display: block
+        margin-bottom: 0
+        margin-top: 15px
+        font-size: 0.75em
+        color: $base-color
+        &:before
+            content: '————'
+            margin-right: 18px
+            letter-spacing: -4px
+
+.tag-share
+    flex-wrap: wrap
+    +flexcenter(space-between)
+    .item
+        display: flex
+        align-items: center
+        margin-bottom: 15px
+        h6
+            margin-right: 15px
+                
+/* Next Prev Blog */
+.next-prev-blog
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    .item
+        display: flex
+        max-width: 365px
+        align-items: center
+        margin-bottom: 30px
+        .image
+            flex: none
+            max-width: 90px
+            margin-right: 30px
+            +res-bl(xs)
+                max-width: 75px
+                margin-right: 20px
+            img
+                border-radius: 7px
+        h6
+            line-height: 1.5
+            margin-bottom: 0
+            letter-spacing: -0.02em
+            +res-bl(xs)
+                font-size: 16px
+        .date
+            display: block
+            margin-bottom: 5px
+            i
+                margin-right: 4px
+
+/* Comments */
+.comment-body
+    +res-ab(ms)
+        display: flex
+    &:not(:last-child)
+        margin-bottom: 35px
+    .author-thumb
+        flex: none
+        max-width: 85px
+        margin-top: 5px
+        margin-right: 35px
+        margin-bottom: 15px
+        +res-bl(sm)
+            margin-right: 20px
+        img
+            border-radius: 50%
+    .content
+        .date
+            line-height: 1
+            margin-right: 15px
+            margin-bottom: 15px
+            display: inline-block
+            i
+                margin-right: 5px
+        .ratting
+            margin-bottom: 15px
+            transform: translateY(-3px)
+            i
+                font-size: 12px
+                margin: 0 5px 0 0
+        p
+            margin-bottom: 5px
+        .read-more
+            text-decoration: none
+            color: $heading-color
+            i
+                margin-top: 5px
+    &.comment-child
+        padding-top: 0
+        border-top: none
+        padding-left: 90px
+        +res-bl(md)
+            padding-left: 40px
+             
+.admin-comment
+    border-radius: 7px
+    border: 1px solid $border-color
+    .comment-body
+        max-width: none
+        margin-bottom: 0
+        padding: 30px 40px
+        align-items: center
+        +res-bl(md)
+            +gapLR(padding, 25px)
+        .author-thumb
+            +res-ab(xl)
+                max-width: 130px
+            +res-ab(sm)
+                margin-bottom: 0
+                margin-right: 40px
+        .content
+            h5
+                margin-bottom: 8px
+            .social-icons
+                margin-top: 10px
+                a
+                    margin-right: 20px
+                    &:hover
+                        color: $primary-color
+                
+/* Comment Form */
+.comment-form
+    h4
+        margin-bottom: 5px
+    .form-group
+        margin-bottom: 10px
+        label
+            font-size: 18px
+            font-weight: 500
+            margin-bottom: 10px
+            color: $heading-color
+    .form-control
+        padding: 15px 25px
+        border-radius: 7px
+        &:focus
+            background: $lighter-color
+            border-color: $heading-color
+    .radio-filter
+        input
+            +size(25px)
+            border-width: 2px
+            &:before
+                opacity: 1
+                background: $border-color
+            &:checked
+                border-color: $heading-color
+                &:before
+                    background: $heading-color
+        label
+            font-size: 16px
+            margin-bottom: 0
+            font-weight: 400
+        
+.comment-review-wrap
+    display: flex
+    flex-wrap: wrap
+    margin-top: -5px
+    justify-content: space-between
+    .comment-ratting-item
+        width: 30%
+        display: flex
+        margin-bottom: 10px
+        align-items: center
+        +res-bl(md)
+            width: 45%
+        +res-bl(ms)
+            width: 100%
+        .title
+            font-size: 18px
+            font-weight: 500
+            margin-right: 25px
+        .ratting
+            i
+                font-size: 12px

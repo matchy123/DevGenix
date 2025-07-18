@@ -1,0 +1,48 @@
+/*******************************************************/
+/******************* ## Banner Area *******************/
+/*******************************************************/
+.banner-inner
+    .page-title
+        +res-bl(xl)
+            font-size: 55px
+        +res-bl(md)
+            font-size: 35px
+        +res-bl(sm)
+            font-size: 30px
+    .breadcrumb
+        font-size: 24px
+        +res-bl(md)
+            font-size: 20px
+        +res-bl(xs)
+            font-size: 18px
+        .breadcrumb-item
+            font-weight: 600
+            font-family: $heading-font
+            &+.breadcrumb-item
+                padding-left: 25px
+                &:before
+                    color: white
+                    content: "\f054"
+                    margin-top: 2px
+                    font-weight: 500
+                    font-size: 0.7em
+                    padding-right: 25px
+                    font-family: "Font Awesome 5 Pro"
+            &.active
+                color: $primary-color
+                
+    .blog-meta
+        justify-content: center
+        li
+            +gapLR(margin, 20px)
+            +res-ab(ms)
+                font-size: 16px
+            a,
+            span
+                color: $primary-color !important
+
+.banner-image
+    +poRB(6%, 0)
+    max-width: 45%
+    +res-bl(xxl)
+        right: 0

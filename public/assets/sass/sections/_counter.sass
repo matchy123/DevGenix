@@ -1,0 +1,65 @@
+/*******************************************************/
+/****************** ## Counter Area *******************/
+/*******************************************************/
+.counter-left-image
+    +res-bl(xxl)
+        text-align: center
+
+.counter-wrap
+    margin-left: 35px
+    margin-right: 115px
+    padding: 60px 80px 30px
+    +res-bt(xxl, lb)
+        +gapLR(padding, 55px)
+        margin-right: 80px
+        margin-left: 0
+    +res-bl(xxl)
+        margin: 55px
+    +res-bl(lg)
+        +gapLR(margin, 35px)
+        +gapLR(padding, 50px)
+    +res-bl(xs)
+        +gapLR(margin, 25px)
+        +gapLR(padding, 35px)
+    
+.count-text
+    &.k-plus:after
+        content: 'k+'
+    &.plus:after
+        content: '+'
+    
+.counter-item
+    margin-bottom: 30px
+    .count-text
+        display: block
+        line-height: 1
+        font-size: 55px
+        @extend %heading
+        margin-bottom: 12px
+    .counter-title
+        color: white
+        font-weight: 500
+        padding: 3px 10px
+        border-radius: 7px
+        margin-bottom: 18px
+        display: inline-block
+        background: $heading-color
+    .text
+        max-width: 200px
+        color: $heading-color
+        
+/* Circle Progress */
+.circle-progress
+    position: relative
+    text-align: center
+    margin-bottom: 30px
+    .counting
+        font-size: 27px
+        +poLT(50%, 35px)
+        font-weight: 700
+        color: $heading-color
+        transform: translate(-50%)
+        font-family: $heading-font
+    h6
+        margin-top: 8px
+        margin-bottom: 0

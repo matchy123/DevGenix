@@ -1,0 +1,61 @@
+/*******************************************************/
+/***************** ## Case Studies Area *****************/
+/*******************************************************/
+.case-studies-wrap
+    display: flex
+    margin-right: -10px
+
+.case-study-item
+    display: flex
+    padding: 30px
+    overflow: hidden
+    transition: 0.5s
+    min-height: 470px
+    position: relative
+    margin-right: 10px
+    flex-direction: column
+    background-size: cover
+    width: calc(12% - 10px)
+    background-position: center
+    +res-bl(md)
+        padding: 15px
+        min-height: 350px
+    .video-play
+        opacity: 0
+        color: white
+        font-size: 16px
+        transition: 0.5s
+        margin-left: auto
+        background: $secondary-color
+        +res-ab(ms)
+            +size(70px)
+            line-height: 70px
+    .content
+        opacity: 0
+        bottom: 30px
+        transition: 0.5s
+        margin-top: auto
+        max-width: 555px
+        position: absolute
+        border-radius: 7px
+        padding: 20px 35px 5px
+        border: 1px solid white
+        width: calc(100% - 60px)
+        backdrop-filter: blur(40px)
+        background: linear-gradient(94.33deg, rgba(255, 255, 255, 0.6) 1.17%, rgba(153, 153, 153, 0.4) 98.66%)
+        +res-bl(lg)
+            padding-left: 25px
+            padding-right: 20px
+        +res-bl(md)
+            display: none
+        h4
+            color: white
+            +res-bl(lg)
+                font-size: 22px
+        p
+            color: white
+    &.active
+        width: calc(64% - 10px)
+        .content,
+        .video-play
+            opacity: 1

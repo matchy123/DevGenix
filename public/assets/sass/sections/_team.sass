@@ -1,0 +1,97 @@
+/*******************************************************/
+/******************** ## Team Area ********************/
+/*******************************************************/
+.team-item
+    transition: 0.5s
+    text-align: center
+    padding: 50px 25px 45px
+    border: 1px solid $border-color
+    .image
+        padding: 5px
+        background: #1D1D1D
+        border-radius: 10px
+        margin-bottom: 30px
+        display: inline-block
+        border: 1px solid $border-color
+        img
+            border-radius: 50%
+    .content
+        h5
+            font-size: 20px
+            margin-bottom: 0
+    &:hover
+        background: #222222
+        border-color: #222222
+            
+    &.style-two
+        padding: 0
+        border: none
+        border-radius: 0
+        margin-bottom: 30px
+        .image
+            display: block
+            transition: 0.4s
+            background: white
+            position: relative
+            border-radius: 7px
+            margin-bottom: 25px
+            padding: 20px 10px 0
+            img
+                border-radius: 0
+            .social-style-one
+                margin: 0
+                opacity: 0
+                transition: 0.4s
+                +poLB(50%, 30px)
+                padding: 8px 20px
+                width: max-content
+                border-radius: 5px
+                background: $primary-color
+                transform: translate(-50%)
+                a
+                    color: #696969
+                    margin-bottom: 0
+                    &:hover
+                        color: $heading-color
+        .content
+            text-align: left
+        &:hover
+            background: transparent
+            .image
+                background: rgba($primary-rgb, 0.2)
+                .social-style-one
+                    bottom: 20px
+                    opacity: 1
+                
+/* Team Details */
+.team-details-content
+    .section-title
+        h2
+            margin-bottom: 10px
+        .designation
+            font-size: 18px
+            font-weight: 500
+            font-family: $heading-font
+            
+.experience-item
+    padding: 20px 25px
+    border-radius: 7px
+    margin-bottom: 10px
+    background: $lighter-color
+    border: 1px solid $border-color
+    +res-ab(ms)
+        display: flex
+    .icon
+        font-size: 45px
+        margin-top: 12px
+        margin-right: 25px
+        margin-bottom: 10px
+        color: $heading-color
+    .content
+        margin-right: auto
+        +res-bl(ms)
+            margin-bottom: 10px
+        h6
+            margin-bottom: 2px
+            +res-ab(xs)
+                font-size: 20px

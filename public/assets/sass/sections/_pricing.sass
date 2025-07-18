@@ -1,0 +1,174 @@
+/*******************************************************/
+/****************** ## Pricing Area  ******************/
+/*******************************************************/
+.pricing-tab
+    display: inline-flex
+    li
+        &:first-child button:after,
+        &:last-child button:before
+            content: ''
+            +size(20px)
+            transition: 0.5s
+            border-radius: 50%
+            background: $primary-color
+        &:first-child button:after
+            margin-right: 5px
+            margin-left: 35px
+            +res-bl(ms)
+                margin-left: 15px
+        &:last-child button:before
+            margin-left: 5px
+            margin-right: 35px
+            +res-bl(ms)
+                margin-right: 15px
+        &:first-child button:before
+            position: absolute
+            +size(60px, 30px)
+            content: ''
+            top: 50%
+            right: 0
+            z-index: -1
+            border-radius: 15px
+            background: $primary-color
+            transform: translate(50%, -50%)
+        button
+            padding: 0
+            z-index: 1
+            display: flex
+            font-weight: 500
+            transition: 0.5s
+            color: $base-color
+            align-items: center
+            position: relative
+            background: transparent
+            text-transform: capitalize
+            &:focus,
+            &:hover
+                color: $heading-color
+            &.active
+                font-weight: 600
+                color: $heading-color
+        &:first-child button.active:after,
+        &:last-child button.active:before
+            background: $heading-color
+            
+.text-white
+    .pricing-tab
+        li
+            button
+                color: rgba(255, 255, 255, 0.65)
+                &:focus,
+                &:hover,
+                &.active
+                    color: white
+            &:first-child button.active:after,
+            &:last-child button.active:before
+                background: white
+            
+.save-percent
+    font-size: 14px
+    font-weight: 600
+    padding: 0 15px
+    margin-left: 10px
+    border-radius: 10px
+    display: inline-block
+    color: $heading-color
+    background: $lighter-color
+    transform: translateY(-3px)
+    border: 1px solid $border-color
+    +res-bl(xs)
+        font-size: 10px
+        margin-left: 5px
+
+.pricing-item
+    background: white
+    position: relative
+    border-radius: 7px
+    padding: 33px 30px
+    margin-bottom: 30px
+    border: 1px solid $border-color
+    .badge
+        +poRT(10px)
+        padding: 8px 15px
+        border-radius: 7px
+        color: $heading-color
+        text-transform: uppercase
+        background: $secondary-color
+    .title
+        +res-ab(xs)
+            font-size: 20px
+    .text
+        margin-bottom: 30px
+    .price
+        @extend %h2
+        display: block
+        margin-bottom: 35px
+        .after-text
+            font-weight: 400
+            color: $base-color
+            font-size: $base-size
+            font-family: $base-font
+    .theme-btn
+        width: 100%
+        margin-bottom: 30px
+        +gapTB(padding, 9px)
+        &:hover
+            color: white
+    .list-style-two.small
+        li
+            font-size: 14px
+            font-weight: 400
+            &:before
+                font-size: 1em
+            &:not(:last-child)
+                margin-bottom: 6px
+            &.hide
+                opacity: 0.3
+                
+    &.style-two
+        transition: 0.5s
+        padding: 40px 50px
+        background: $lighter-color
+        +res-bl(xs)
+            +gapLR(padding, 30px)
+        .text,
+        .title,
+        .price,
+        .note-text,
+        .price .after-text,
+        .list-style-two li,
+        .list-style-two li:before
+            transition: 0.5s
+        .title
+            margin-bottom: 18px
+        .price
+            margin-bottom: 10px
+        .text
+            margin-bottom: 35px
+            padding-bottom: 42px
+            border-bottom: 1px solid $border-color
+        .list-style-two li
+            +res-bl(ms)
+                font-size: 14px
+        .theme-btn
+            color: white
+            max-width: 290px
+            margin-top: 45px
+            margin-bottom: 12px
+        &:hover
+            background: $heading-color
+            .text,
+            .title,
+            .note-text,
+            .price .after-text,
+            .list-style-two li,
+            .list-style-two li:before
+                color: white
+            .price
+                color: $primary-color
+            .text
+                border-bottom-color: rgba(255, 255, 255, 0.2)
+            .theme-btn
+                color: $heading-color
+                background: $primary-color
+                border-color: $primary-color

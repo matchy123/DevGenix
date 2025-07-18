@@ -1,0 +1,81 @@
+/*******************************************************/
+/******************** ## CTA Area ********************/
+/*******************************************************/
+.cta-two-wrap
+    padding: 65px 70px
+    +res-bl(sm)
+        +gapLR(padding, 45px)
+    +res-bl(ms)
+        +gapLR(padding, 30px)
+    +res-bl(xs)
+        +gapLR(padding, 20px)
+    .newsletter-form
+        max-width: 510px
+        label
+            +res-bl(xs)
+                display: none
+                
+                
+.cta-two-image-part
+    position: relative
+    +gapLR(padding, 10%)
+    display: inline-block
+    .shape
+        position: absolute
+        &.logo
+            +absmiddle()
+            +size(130px)
+            padding: 25px
+            text-align: center
+            border-radius: 10px
+            background: $heading-color
+            +res-bl(sm)
+                +size(80px)
+                padding: 20px
+        &.one,
+        &.two,
+        &.three,
+        &.four
+            +size(65px)
+            color: white
+            font-size: 25px
+            line-height: 65px
+            text-align: center
+            border-radius: 50%
+            animation: zoomInOut 4s infinite
+            +res-bl(ms)
+                +size(45px)
+                font-size: 16px
+                line-height: 45px
+        &.one
+            top: 5%
+            left: 15%
+            background: #F200FF
+        &.two
+            top: 4%
+            right: 16%
+            animation-delay: 3s
+            background: #ECC966
+        &.three
+            bottom: 5%
+            left: 13%
+            animation-delay: 1s
+            background: #36C5F0
+        &.four
+            right: 17%
+            bottom: 4%
+            animation-delay: 2s
+            background: #EE6513
+        &.five
+            left: 0
+            top: 30%
+            background-color: #FF6200
+            animation: down-up-one 8s infinite
+            +res-bl(ms)
+                display: none
+        &.six
+            right: 0
+            bottom: 40%
+            animation: upDownLeft 10s infinite
+            +res-bl(ms)
+                display: none

@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "flaticon_ridda";
+  src: url("./flaticon_ridda.woff2?330fcd52a61cb9bfb3604ed10546984f") format("woff2"), url("./flaticon_ridda.woff?330fcd52a61cb9bfb3604ed10546984f") format("woff"), url("./flaticon_ridda.eot?330fcd52a61cb9bfb3604ed10546984f#iefix") format("embedded-opentype"), url("./flaticon_ridda.ttf?330fcd52a61cb9bfb3604ed10546984f") format("truetype"), url("./flaticon_ridda.svg?330fcd52a61cb9bfb3604ed10546984f#flaticon_ridda") format("svg");
+}
+i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon_ridda !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-twitter:before {
+  content: "\f101";
+}
+
+.flaticon-social-media-marketing:before {
+  content: "\f102";
+}
+
+.flaticon-creative:before {
+  content: "\f103";
+}
+
+.flaticon-communities:before {
+  content: "\f104";
+}
+
+.flaticon-promotion:before {
+  content: "\f105";
+}
+
+.flaticon-quotation-mark:before {
+  content: "\f106";
+}
+
+.flaticon-trophy:before {
+  content: "\f107";
+}
+
+.flaticon-megaphone:before {
+  content: "\f108";
+}
+
+.flaticon-search:before {
+  content: "\f109";
+}
+
+.flaticon-target:before {
+  content: "\f10a";
+}
+
+.flaticon-performance:before {
+  content: "\f10b";
+}
+
+.flaticon-seo:before {
+  content: "\f10c";
+}
+
+.flaticon-keywords:before {
+  content: "\f10d";
+}
+
+.flaticon-search-engine:before {
+  content: "\f10e";
+}
+
+.flaticon-link-building:before {
+  content: "\f10f";
+}
+
+.flaticon-www:before {
+  content: "\f110";
+}
+
+.flaticon-world-map:before {
+  content: "\f111";
+}
+
+.flaticon-email:before {
+  content: "\f112";
+}
+
+.flaticon-call:before {
+  content: "\f113";
+}
+
+.flaticon-asterisk:before {
+  content: "\f114";
+}
+
+.flaticon-film-camera:before {
+  content: "\f115";
+}
+
+.flaticon-video-marketing:before {
+  content: "\f116";
+}
+
+.flaticon-animate:before {
+  content: "\f117";
+}
+
+.flaticon-live-streaming:before {
+  content: "\f118";
+}
+
+.flaticon-curve:before {
+  content: "\f119";
+}
+
+.flaticon-leadership:before {
+  content: "\f11a";
+}
+
+.flaticon-satisfaction:before {
+  content: "\f11b";
+}
+
+.flaticon-networking:before {
+  content: "\f11c";
+}
+
+.flaticon-job-seeker:before {
+  content: "\f11d";
+}
+
+.flaticon-job-search:before {
+  content: "\f11e";
+}
+
+.flaticon-customer-service:before {
+  content: "\f11f";
+}
+
+.flaticon-setting:before {
+  content: "\f120";
+}
+
+.flaticon-timing:before {
+  content: "\f121";
+}
+
+.flaticon-responsive:before {
+  content: "\f122";
+}
+
+.flaticon-online-shopping:before {
+  content: "\f123";
+}
+
+.flaticon-tool:before {
+  content: "\f124";
+}
+
+.flaticon-solution:before {
+  content: "\f125";
+}
+
+.flaticon-customer-support:before {
+  content: "\f126";
+}
+
+.flaticon-mail-box:before {
+  content: "\f127";
+}/*# sourceMappingURL=flaticon_ridda.css.map */

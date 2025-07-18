@@ -1,0 +1,99 @@
+/*******************************************************/
+/******************* ## Main Footer *******************/
+/*******************************************************/
+.main-footer
+    a
+        &:hover
+            text-decoration: underline
+            text-decoration-thickness: 1px
+    &.style-two
+        margin-top: -150px
+        border-radius: 100px 100px 0 0
+        +res-bl(lg)
+            border-radius: 50px 50px 0 0
+        .footer-bottom
+            .logo img
+                max-height: 36px
+            .scroll-top
+                background: white
+            .copyright-text
+                p
+                    color: white
+                    a
+                        color: white
+                        text-decoration: underline
+        .footer-contact .social-style-two a:hover i
+                    color: white
+
+.footer-widget
+    margin-bottom: 50px
+                
+.footer-title
+    margin-bottom: 22px
+    h6
+        text-transform: capitalize
+        
+.footer-newsletter
+    max-width: 330px
+            
+.newsletter-form
+    display: flex
+    background: white
+    position: relative
+    align-items: center
+    border-radius: 10px
+    padding: 5px 5px 5px 20px
+    label
+        margin-bottom: 0
+        margin-right: 5px
+        i
+            color: $base-color
+    input
+        border: 0
+        padding: 5px
+        font-size: 14px
+        color: $base-color
+    .theme-btn
+        flex: none
+                
+.footer-links ul li
+    &:not(:last-child)
+        margin-bottom: 10px
+    
+.footer-text
+    .text
+        font-size: 20px
+        font-family: $heading-font
+        +res-bl(xl)
+            font-size: 18px
+    .h1
+        font-size: 65px
+        +res-bl(xl)
+            font-size: 50px
+        +res-bl(ms)
+            font-size: 40px
+        +res-bl(xs)
+            font-size: 35px
+  
+/* Footer Bottom */  
+.footer-bottom
+    position: relative
+    .copyright-text
+        a
+            font-weight: 600
+            color: $primary-color
+    .scroll-top
+        top: -30px
+        position: absolute
+        left: calc(50% - 28px)
+        i
+            color: $heading-color
+        
+.footer-bottom-nav
+    flex-wrap: wrap
+    display: inline-flex
+    +gapLR(margin, -16px)
+    justify-content: center
+    li
+        margin: 0 16px 5px
+            

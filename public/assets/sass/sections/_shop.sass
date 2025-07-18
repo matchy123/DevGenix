@@ -1,0 +1,136 @@
+/*******************************************************/
+/******************** ## Shop Area ********************/
+/*******************************************************/
+.shop-shorter
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    justify-content: space-between
+    .nice-select
+        min-width: 200px
+        
+.product-item
+    border-radius: 7px
+    margin-bottom: 30px
+    background: $lighter-color
+    .image
+        img
+            width: 100%
+            border-radius: 7px
+    .content
+        padding: 30px 40px 40px
+        +res-bl(lg)
+            padding-right: 30px
+            padding-left: 35px
+        +res-bl(xs)
+            padding-right: 20px
+            padding-left: 25px
+        .category
+            margin-bottom: 5px
+            display: inline-block
+        h5
+            margin-bottom: 10px
+            +res-bl(lg)
+                font-size: 20px
+        .ratting
+            display: flex
+            margin-bottom: 25px
+        .theme-btn
+            +res-bl(xs)
+                font-size: 14px
+    
+/* Product Details */
+.preview-images
+    margin-bottom: 30px
+    img
+        width: 100%
+.thumb-images
+    justify-content: space-between
+    .thumb-item
+        width: calc(33.3333% - 20px)
+        img
+            width: 100%
+        
+.product-details-content
+    .section-title
+        h2
+            margin-bottom: 15px
+    .ratting-price
+        display: flex
+        align-items: center
+        .price
+            font-size: 24px
+            font-weight: 500
+            color: $heading-color
+            margin-left: 10px
+    .category-tags
+        li
+            &:not(:last-child)
+                margin-bottom: 8px
+            b
+                font-size: 18px
+                font-weight: 600
+                margin-right: 20px
+                margin-bottom: 10px
+                color: $heading-color
+                +res-ab(sm)
+                    min-width: 90px
+                    display: inline-block
+            a
+                padding: 2px 15px
+                margin-bottom: 10px
+                display: inline-block
+                border: 1px solid $border-color
+                +res-bl(xs)
+                    font-size: 14px
+                &:not(:last-child)
+                    margin-right: 10px
+                &:hover
+                    color: $heading-color
+                    background: $primary-color
+                    border-color: $primary-color
+    .add-to-cart
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        input
+            width: 90px
+            font-size: 20px
+            padding: 8px 20px
+            border-radius: 10px
+            margin: 10px 10px 0 0
+            background: transparent
+            border: 1px solid $border-color
+        .theme-btn
+            +gapTB(padding, 9px)
+            margin: 10px 10px 0 0
+        .wishlist
+            margin-top: 10px
+            padding: 8px 20px
+            border-radius: 5px
+            background: transparent
+            border: 1px solid $border-color
+            
+.product-information-tab
+    li
+        &:not(:last-child)
+            margin-right: 30px
+            +res-bl(sm)
+                margin-right: 15px
+        a
+            font-weight: 700
+            padding: 11px 40px
+            margin-bottom: 15px
+            color: $heading-color
+            display: inline-block
+            border: 1px solid $border-color
+            +res-bl(lg)
+                padding: 8px 25px
+            i
+                margin-left: 10px
+                transform: rotate(-45deg)
+                +res-bl(md)
+                    display: none
+            &.active
+                background: $primary-color
+                border-color: $border-color

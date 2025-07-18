@@ -1,0 +1,33 @@
+/*******************************************************/
+/****************** ## Videos Area ********************/
+/*******************************************************/ 
+/* Video Play */
+.video-play
+    font-size: 18px
+    padding-left: 4px
+    +circle(white, 80px)
+    display: inline-block
+    color: $secondary-color
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7)
+    animation: pulse 1.5s infinite linear
+    &.color-primary
+        color: $primary-color
+    +res-bl(ms)
+        +size(60px)
+        font-size: 14px
+        line-height: 60px
+    &:hover
+        color: white
+        background: $secondary-color
+        
+.video-wrap
+    img
+        width: 100%
+        border-radius: 10px
+    .video-play
+        +absmiddle()
+        
+.video-area
+    .marquee-wrap.style-two
+        z-index: -1
+        +poLB(-5%, 55%)

@@ -1,0 +1,176 @@
+/*******************************************************/
+/******************** ## About Us *********************/
+/*******************************************************/
+.about-content
+    p
+        color: #CBCBCB
+        
+.about-logo-part
+    padding: 1.5% 8%
+    position: relative
+    border-radius: 10px
+    border: 1px solid $border-color
+    background: rgba(255, 255, 255, 0.05)
+    .logo
+        +absmiddle()
+        padding: 28px
+        border-radius: 10px
+        background: $primary-color
+        +res-bl(ms)
+            max-width: 35%
+    .icon
+        font-size: 35px
+        position: absolute
+        border-radius: 50%
+        color: $heading-color
+        animation: zoomInOut 4s infinite
+        border: 1px solid $border-color
+        +res-bl(ms)
+            +size(50px)
+            padding: 8px
+            font-size: 20px
+        img
+            border-radius: 50%
+        &.one
+            left: 8%
+            top: 15%
+            animation-delay: 1s
+        &.two
+            left: 8%
+            bottom: 15%
+        &.three
+            right: 8%
+            top: 15%
+            animation-delay: 2s
+            i
+                color: $heading-color
+        &.four
+            right: 9%
+            bottom: 15%
+            animation-delay: 3s
+            
+.about-circles
+    max-width: 325px
+    .circle
+        @extend %h6
+        +size(170px)
+        padding: 10px
+        text-align: center
+        border-radius: 50%
+        +flexcenter(center)
+        border: 1px solid $heading-color
+        &:not(:last-child)
+            margin-bottom: -12%
+        
+/* About Four */
+.about-content-four
+    .list-style-one
+        +res-ab(ms)
+            display: flex
+            flex-wrap: wrap
+            li
+                width: 48%
+                
+.about-four-image-part
+    max-width: 570px
+    position: relative
+    text-align: center
+    +gapLR(padding, 10%)
+    .shape
+        position: absolute
+        &.one
+            +absmiddle()
+            max-width: 30%
+            img
+                border-radius: 50%
+        &.two
+            left: 12%
+            bottom: 2%
+            max-width: 20%
+            animation: zoomInOut 4s linear 2s infinite
+            +res-bl(xs)
+                left: 5%
+            img
+                border-radius: 50%
+        &.three
+            top: 5%
+            right: 12%
+            max-width: 20%
+            animation: zoomInOut 4s linear infinite
+            +res-bl(xs)
+                right: 5%
+            img
+                border-radius: 50%
+        &.four
+            left: 0
+            top: 15%
+            animation: leftRightOne 8s infinite
+        &.five
+            right: 18%
+            bottom: 35%
+            animation: leftRightTwo 8s infinite
+            +res-bl(xs)
+                right: 0
+        &.six
+            right: 0
+            bottom: 10%
+            animation: leftRightTwo 10s infinite
+                
+.about-counter
+    .counter-wrap
+        +poRB(30px)
+        width: 100%
+        max-width: 960px
+        +res-bl(xl)
+            left: 10px
+            right: 10px
+            bottom: 10px
+            width: calc(100% - 20px)
+            +res-bl(md)
+                position: relative
+                
+.what-we-provide-area
+    .section-title
+        max-width: 500px
+        
+/* About Three */
+.about-three-image-part
+    display: flex
+    position: relative
+    justify-content: space-between
+    .image
+        width: calc(50% - 15px)
+        +res-bl(ms)
+            width: calc(50% - 7.5px)
+        img
+            width: 100%
+            border-radius: 5px
+    .logo
+        +absmiddle()
+        padding: 25px
+        max-width: 25%
+        border-radius: 10px
+        background: $primary-color
+        +res-bl(ms)
+            padding: 15px
+            
+            
+/* About Five */
+.about-five-logo-part
+    height: 100%
+    display: flex
+    flex-direction: column
+    +res-bl(xs)
+        +gapLR(padding, 30px)
+    .logo
+        margin-top: auto
+        margin-bottom: auto
+        
+/* Team Page */
+.team-page-about-content
+    .list-style-two
+        +res-ab(ms)
+            display: flex
+            flex-wrap: wrap
+            li
+                width: 48%

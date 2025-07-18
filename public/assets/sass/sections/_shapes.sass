@@ -1,0 +1,154 @@
+/*******************************************************/
+/********************* ## Shapes *********************/
+/*******************************************************/
+.radius-shape-top
+    margin-top: -100px
+    border-radius: 100px 100px 0 0
+    +res-bl(lg)
+        margin-top: -50px
+        border-radius: 50px 50px 0 0
+
+.footer-shapes
+    &:after,
+    &:before
+        content: ''
+        z-index: -1
+        filter: blur(75px)
+        position: absolute
+        +size(500px, 200px)
+        background: $primary-color
+        +res-bl(xl)
+            +size(300px, 100px)
+    &:before
+        left: 0
+        top: 25%
+        transform: translate(-60%) rotate(-9.61deg)
+    &:after
+        right: 0
+        bottom: 30%
+        transform: translate(60%) rotate(-9.61deg)
+    .shape
+        z-index: -1
+        +poLB(0, 10%)
+        max-width: 15%
+        
+.work-process-shapes
+    &:after
+        content: ''
+        z-index: -1
+        +poRB(0, 25%)
+        filter: blur(75px)
+        +size(500px, 200px)
+        background: $primary-color
+        transform: translate(20%) rotate(-9.61deg)
+        +res-bl(xl)
+            +size(300px, 100px)
+        
+.hero-area-shapes
+    &:before
+        content: ''
+        z-index: -1
+        +poLT(0, 30%)
+        +size(1000px, 300px)
+        filter: blur(100px)
+        background: $primary-color
+        transform: translate(-10%) rotate(-9.61deg)
+        +res-bl(lg)
+            +size(500px, 200px)
+    .shape
+        z-index: -1
+        max-width: 15%
+        +poLT(54%, 13%)
+        animation: rotated_circle_reverse 20s infinite
+        +res-bl(lg)
+            left: 75%
+    .hero-image
+        +poRB(0)
+        z-index: -1
+        max-width: 50%
+        +res-bl(lg)
+            max-width: 40%
+        +res-bl(xs)
+            display: none
+
+.counter-shapes
+    .shape
+        z-index: -1
+        +poRT(0, -3%)
+        max-width: 15%
+    .marquee-wrap
+        +poRB(0)
+        z-index: -1
+        max-width: 100%
+        color: rgba(255, 255, 255, 0.03)
+        +res-ab(lb)
+            font-size: 180px
+            
+.faq-shapes
+    .shape
+        z-index: -2
+        position: absolute
+        animation: zoomInOut 5s infinite
+        +res-bl(xxl)
+            max-width: 5%
+        &.one
+            left: 11%
+            bottom: 25%
+        &.two
+            top: 10%
+            left: 14%
+            animation-delay: 1s
+        &.three
+            top: 10%
+            right: 20%
+            animation-delay: 2s
+        &.four
+            top: 25%
+            right: 9%
+            animation-delay: 3s
+        &.five
+            right: 14%
+            bottom: 20%
+            animation-delay: 4s
+            
+.page-banner-shapes
+    &:after,
+    &:before
+        content: ''
+        z-index: -1
+        filter: blur(75px)
+        position: absolute
+        +size(500px, 200px)
+        background: $primary-color
+        +res-bl(xl)
+            +size(300px, 100px)
+        +res-bl(ms)
+            width: 150px
+    &:before
+        left: 0
+        bottom: 25%
+        transform: translate(-35%) rotate(-9.61deg)
+    &:after
+        right: 0
+        bottom: 10%
+        transform: translate(60%) rotate(-9.61deg)
+    .shape
+        top: 19%
+        left: 47%
+        z-index: -1
+        max-width: 20%
+        position: absolute
+        &.position-two
+            top: 25%
+            left: 80%
+        &.position-three
+            top: 25%
+            left: 4%
+    .marquee-wrap
+        +poLB(0)
+        z-index: -1
+        opacity: 0.03
+        max-width: 100%
+        +res-ab(xxl)
+            font-size: 130px
+        

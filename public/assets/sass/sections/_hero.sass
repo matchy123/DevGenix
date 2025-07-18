@@ -1,0 +1,263 @@
+/*******************************************************/
+/******************** ## Hero Area ********************/
+/*******************************************************/
+.hero-area
+    background: linear-gradient(180deg, #290E93 0%, #5931F6 100%)
+
+.hero-content
+    .subtitle
+        +res-ab(ms)
+            font-size: 18px
+            +gapTB(padding, 6px)
+    h1
+        margin-bottom: 40px
+        letter-spacing: -3px
+        +res-bl(xxl)
+            font-size: 75px
+        +res-bl(lg)
+            font-size: 65px
+            margin-bottom: 20px
+        +res-bl(md)
+            font-size: 55px
+        +res-bl(sm)
+            font-size: 50px
+        +res-bl(ms)
+            font-size: 45px
+        +res-bl(xs)
+            font-size: 40px
+    p
+        font-size: 24px
+        font-weight: 500
+        +res-bl(lg)
+            font-size: 20px
+        +res-bl(ms)
+            font-size: 18px
+        +res-bl(xs)
+            font-size: 16px
+            
+    &.style-two
+        h1
+            margin-bottom: 35px
+            +res-ab(lg)
+                font-size: 65px
+            +res-bt(lg, xl)
+                font-size: 58px
+            +res-bl(sm)
+                font-size: 48px
+            +res-bl(ms)
+                font-size: 38px
+        p
+            max-width: 530px
+            +res-ab(ms)
+                font-size: 18px
+    
+    &.style-three
+        h1
+            +res-ab(xxl)
+                line-height: 1
+        p
+            @extend %heading
+        
+.hero-socials
+    padding-top: 50px
+    position: relative
+    +gapLR(padding, 5.5%)
+    padding-bottom: 110px
+    .logo
+        border-radius: 10px
+        background: white
+        padding: 25px
+        +absmiddle()
+        top: 45%
+        +res-bl(lg)
+            top: 42%
+            padding: 10px
+            max-width: 10%
+        +res-bl(ms)
+            top: 38%
+            padding: 6px
+            max-width: 13%
+    .icon
+        border-radius: 50%
+        position: absolute
+        border: 1.5px solid white
+        backdrop-filter: blur(40px)
+        animation: zoomInOut 5s infinite
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(241, 241, 241, 0.6) 100%)
+        +res-bl(lg)
+            padding: 5px
+            max-width: 7%
+        img
+            display: block
+        &.one
+            left: 0
+            top: calc(3% + 50px)
+            
+        &.two
+            left: 0
+            bottom: calc(3% + 110px)
+            animation-delay: 1s
+        &.three
+            left: 33%
+            top: calc(11% + 50px)
+        &.four
+            left: 36%
+            bottom: 100px
+            animation-delay: 1s
+        &.five
+            top: 15px
+            right: 40%
+        &.six
+            right: 37%
+            animation-delay: 1s
+            bottom: calc(3% + 110px)
+        &.seven
+            right: 0
+            top: calc(1% + 50px)
+        &.eight
+            right: 0
+            animation-delay: 1s
+            bottom: calc(5% + 110px)
+            
+/* Hero Area Two */ 
+.hero-two-image-part
+    position: relative
+    padding-left: 15px
+    .shape
+        max-width: 15%
+        position: absolute
+        &.one
+            top: 5%
+            left: 10%
+            animation: down-up-one 8s infinite
+        &.two
+            top: 42%
+            left: -10%
+            max-width: 45%
+            animation: leftRightOne 8s infinite
+        &.three
+            left: 15px
+            bottom: 10%
+            animation: zoomInOut 6s linear 4s infinite
+        &.four
+            top: 5%
+            right: 18%
+            animation: zoomInOut 6s linear 2s infinite
+        &.five
+            right: 0
+            bottom: 14%
+            animation: zoomInOut 6s infinite
+            
+/* Hero Four Area */
+.hero-content-four
+    h1
+        line-height: 1
+        font-size: 160px
+        font-weight: 800
+        margin-bottom: 40px
+        +res-bl(lb)
+            font-size: 130px
+        +res-bl(xxl)
+            font-size: 110px
+        +res-bl(lg)
+            font-size: 90px
+            line-height: 1.1
+            margin-bottom: 20px
+        +res-bl(md)
+            font-size: 70px
+            line-height: 1.2
+        +res-bl(sm)
+            font-size: 60px
+        +res-bl(ms)
+            font-size: 50px
+        +res-bl(xs)
+            font-size: 45px
+    p
+        font-size: 20px
+        line-height: 1.8
+        max-width: 730px
+        +res-bl(lb)
+            font-size: 18px
+            max-width: 620px
+        +res-bl(sm)
+            font-size: 16px
+    h5
+        font-size: 20px
+
+.trusted-clients
+    display: flex
+    align-items: center
+    img
+        +size(65px)
+        border-radius: 50%
+        border: 2px solid white
+        +res-bl(sm)
+            +size(50px)
+        &:not(:last-child)
+            margin-right: -15px
+        
+.hero-content-five
+    h1, .h1
+        line-height: 1
+        font-size: 150px
+        margin-bottom: 0
+        font-weight: 800
+        letter-spacing: -0.03em
+        br
+            +res-bl(lg)
+                display: none
+        +res-bl(xxl)
+            font-size: 130px
+        +res-bl(xl)
+            font-size: 105px
+        +res-bl(lg)
+            font-size: 85px
+        +res-bl(md)
+            font-size: 60px
+            line-height: 1.1
+        +res-bl(sm)
+            font-size: 50px
+        +res-bl(ms)
+            font-size: 40px
+            line-height: 1.2
+        +res-bl(xs)
+            font-size: 35px
+    .content
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: space-between
+        .h1
+            +res-ab(xxl)
+                margin-right: 5%
+            +res-bl(lg)
+                margin-bottom: 10px
+        p
+            max-width: 400px
+            font-weight: 500
+            margin-bottom: 0
+            margin-top: 30px
+            +res-ab(ms)
+                font-size: 18px
+        .theme-btn
+            margin-top: 25px
+            
+            
+.hero-five-clients
+    z-index: 1
+    position: relative
+    padding: 50px 0 50px 50px
+    +res-bl(sm)
+        padding-left: 25px
+    &:before
+        +poLT(0)
+        content: ''
+        z-index: -1
+        +size(30%, 100%)
+        border: 1px solid rgba(255, 255, 255, 0.2)
+    .client-logos
+        margin-right: -30px
+        img
+            margin-top: 15px
+            margin-right: 30px
+            max-width: calc(50% - 35px)

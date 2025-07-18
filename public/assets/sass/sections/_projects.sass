@@ -1,0 +1,250 @@
+/*******************************************************/
+/******************** ## Projects *********************/
+/*******************************************************/
+.project-item
+    position: relative
+    margin-bottom: 30px
+    .image
+        width: 100%
+        img
+            width: 100%
+    .content
+        opacity: 0
+        transition: 0.35s
+        +poLB(35px, 25px)
+        +res-bl(ms)
+            left: 20px
+            bottom: 10px
+        .category, h6, h4
+            line-height: 1.4
+            background: white
+            padding: 8px 20px
+        .category
+            margin-bottom: 5px
+            display: inline-block
+            +res-bl(xs)
+                display: none
+        h6, h4
+            margin-bottom: 0
+            +res-bl(sm)
+                font-size: 20px
+            +res-bl(ms)
+                font-size: 18px
+    &:hover
+        .content
+            opacity: 1
+            bottom: 35px
+            +res-bl(ms)
+                bottom: 20px
+            
+/* Latest work */
+.latest-work-item
+    display: flex
+    cursor: pointer
+    transition: 0.5s
+    position: relative
+    border-bottom: 1px solid $border-color
+    &:first-child
+        border-top: 1px solid $border-color
+    .content-wrap
+        width: 100%
+        .title
+            line-height: 1
+            margin-bottom: 0
+            &.h1
+                +res-bl(lg)
+                    font-size: 75px
+                +res-bl(md)
+                    font-size: 60px
+                +res-bl(ms)
+                    font-size: 50px
+                +res-bl(xs)
+                    font-size: 40px
+            &.h2
+                display: block
+                font-size: 65px
+                margin-bottom: 28px
+                +res-bl(md)
+                    font-size: 50px
+                +res-bl(ms)
+                    font-size: 40px
+                +res-bl(xs)
+                    font-size: 30px
+    .normal-area
+        padding: 30px
+        +res-ab(sm)
+            display: flex
+            align-items: flex-end
+        +res-bl(lg)
+            padding-left: 0
+        .category-wrap
+            flex: none
+            width: 160px
+            display: block
+            +res-bl(md)
+                width: 125px
+            .category
+                padding: 0 15px
+                font-size: 14px
+                font-weight: 600
+                background: white
+                border-radius: 10px
+                margin-bottom: 10px
+                color: $heading-color
+                display: inline-block
+                border: 1px solid $heading-color
+    .active-area
+        padding: 40px 30px
+        +res-bl(xs)
+            padding-left: 20px
+            padding-right: 10px
+        +res-ab(lg)
+            display: flex
+            align-items: center
+            .image
+                width: 35%
+                flex: none
+                margin-right: 5%
+        .image
+            +res-bl(lg)
+                margin-right: 50px
+                margin-bottom: 35px
+        .content
+            max-width: 500px
+            p
+                margin-bottom: 0
+    .detail-btn
+        font-size: 35px
+        +poRT(30px, 50%)
+        margin-left: auto
+        color: $heading-color
+        transform: rotate(-45deg) translate(20px, -50%)
+        +res-bl(lg)
+            right: 0
+            transform: rotate(-45deg) translate(10px, -50%)
+        +res-bl(sm)
+            top: 40px
+        
+    &.active
+        background: white
+        border-radius: 10px
+        border: 1px solid $heading-color
+        .detail-btn
+            top: 45px
+            color: $primary-color
+            transform: rotate(45deg) translate(0)
+            +res-bl(lg)
+                right: 25px
+            +res-bl(xs)
+                right: 13px
+                
+/* Project List */
+.project-list-item
+    transition: 0.5s
+    padding-top: 50px
+    margin-bottom: 50px
+    border-top: 1px solid $border-color
+    +res-ab(lg)
+        display: flex
+        justify-content: space-between
+    .content
+        display: flex
+        max-width: 440px
+        +gapTB(margin, 20px)
+        flex-direction: column
+        +res-bl(lg)
+            margin: 0 0 45px
+        .project-tags
+            margin-bottom: 8px
+        h4
+            +res-bl(xs)
+                font-size: 20px
+            a:hover
+                text-decoration: underline
+                text-decoration-thickness: 1px
+        .theme-btn
+            font-size: 14px
+            margin-top: 6px
+            padding: 6px 27px
+        .top
+            margin-bottom: 10px
+        .bottom
+            margin-top: auto
+    .image
+        img
+            border-radius: 7px
+            +res-bl(lg)
+                width: 100%
+    &:hover
+        border-top-color: $heading-color
+    
+.project-tags
+    flex-wrap: wrap
+    display: inline-flex
+    +gapLR(margin, -3.5px)
+    a
+        font-size: 14px
+        padding: 2px 10px
+        line-height: 1.55
+        border-radius: 7px
+        margin: 0 3.5px 7px
+        color: $heading-color
+        border: 1px solid $heading-color
+    
+    
+/* Project Grid */
+.project-grid-item
+    margin-bottom: 50px
+    .image
+        margin-bottom: 30px
+        img
+            width: 100%
+    .content
+        .project-tags
+            margin-bottom: 3px
+        h4
+            +res-bl(ms)
+                font-size: 20px
+            a:hover
+                text-decoration: underline
+                text-decoration-thickness: 1px
+            
+/* Project Details */
+.project-details-info
+    display: flex
+    flex-wrap: wrap
+    +gapLR(margin, -10px)
+    justify-content: space-between
+    .pd-info-item
+        margin-bottom: 30px
+        +gapLR(margin, 10px)
+        h5
+            font-size: 20px
+            margin-bottom: 4px
+            
+.next-prev-projects
+    display: flex
+    align-items: center
+    justify-content: space-between
+    +res-bl(lg)
+        flex-wrap: wrap
+    
+.np-project-item
+    margin-bottom: 30px
+    +res-ab(ms)
+        display: flex
+        align-items: center
+    .image
+        flex: none
+        max-width: 190px
+        margin-right: 30px
+        +res-bl(ms)
+            margin-right: 0
+            margin-bottom: 22px
+    .content
+        .project-tags
+            margin-bottom: 8px
+        h6
+            margin-bottom: 10px
+            +res-ab(xs)
+                font-size: 20px

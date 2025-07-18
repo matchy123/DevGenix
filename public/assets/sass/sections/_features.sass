@@ -1,0 +1,46 @@
+/*******************************************************/
+/******************** ## Features *********************/
+/*******************************************************/
+.feature-item
+    padding: 15px
+    margin-bottom: 30px
+    border-radius: 10px
+    border: 1px solid $border-color
+    background: rgba(255, 255, 255, 0.05)
+    +res-ab(sm)
+        display: flex
+    .image
+        +res-ab(sm)
+            flex: none
+            width: 40%
+            align-self: center
+            margin-right: 15px
+        img
+            border-radius: 10px
+    .content
+        display: flex
+        padding: 20px 25px
+        flex-direction: column
+        align-items: flex-start
+        +res-bt(lg, xl)
+            padding: 0
+        +res-bl(sm)
+            padding: 30px 0 15px
+        .category
+            font-size: 14px
+            font-weight: 500
+            padding: 0 12px
+            border-radius: 7px
+            margin-bottom: 10px
+            display: inline-block
+            border: 1px solid $border-color
+            background: linear-gradient(180deg, #290E93 0%, #5931F6 100%)
+        h5
+            font-weight: 600
+            margin-bottom: 20px
+            +res-bt(lg, xl)
+                font-size: 20px
+            +res-bl(xs)
+                font-size: 20px
+        .theme-btn
+            margin-top: auto

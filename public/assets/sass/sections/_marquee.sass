@@ -1,0 +1,67 @@
+/*******************************************************/
+/******************* ## Marquee Text *******************/
+/*******************************************************/        
+.marquee-inner
+    display: flex
+    &.left
+        animation: marquee_left 20s linear infinite
+    &.right
+        animation: marquee_right 20s linear infinite
+        
+/* Headline style */
+.marquee-wrap
+    display: flex
+    line-height: 1
+    overflow: hidden
+    font-size: 250px
+    font-weight: 800
+    color: transparent
+    white-space: nowrap
+    align-items: center
+    font-family: $heading-font
+    -webkit-text-stroke-width: 1.5px
+    -webkit-text-stroke-color: rgba(14, 19, 23, 0.1)
+    +res-bl(lb)
+        font-size: 150px
+    +res-bl(xxl)
+        font-size: 100px
+    +res-bl(lg)
+        font-size: 80px
+    +res-bl(sm)
+        font-size: 60px
+    .marquee-item
+        display: flex
+        align-items: center
+        +gapLR(margin, 10px)
+        i
+            font-size: 0.35em
+            transition: 0.5s
+            -webkit-text-stroke-width: 2.5px
+            &:hover
+                color: $primary-color
+                -webkit-text-stroke-color: $primary-color
+                &:before
+                    content: "\f102"
+        
+    &.style-two
+        font-size: 24px
+        font-weight: 700
+        color: $heading-color
+        transform: rotate(-5deg)
+        +res-bl(lg)
+            transform: rotate(-3deg)
+        +res-bl(sm)
+            transform: rotate(-2deg)
+        .marquee-item
+            +res-ab(sm)
+                +gapLR(margin, 35px)
+            i
+                font-size: 1em
+                margin-right: 15px
+                margin-bottom: -3px
+            
+/* Blank Container */
+.blank-container
+    z-index: -1
+    height: 100%
+    +absmiddle()

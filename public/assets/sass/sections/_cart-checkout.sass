@@ -1,0 +1,90 @@
+/*******************************************************/
+/**************** ## Cart Checkout Area ****************/
+/*******************************************************/
+/* Cart Page */
+.shoping-table,
+.shoping-cart-total
+    table
+        width: 100%
+    td, th
+        padding: 15px 8px
+        text-align: center
+        border: 1px solid $border-color
+    th
+        text-transform: capitalize
+    td
+        img
+            max-height: 60px
+        .title
+            font-size: 18px
+            color: $heading-color
+        .price
+            &:before
+                content: '$'
+        button
+            background: transparent
+            
+.shoping-table
+    +res-bl(md)
+        thead
+            display: none
+        tr
+            display: grid
+            &:not(:last-child)
+                margin-bottom: 50px
+        td
+            &:not(:last-child)
+                border-bottom: none
+        
+.quantity-input
+    display: inline-flex
+    button
+        width: 45px
+        background: transparent
+        border: 1px solid $border-color
+        &.quantity-down
+            letter-spacing: -3px
+    input
+        width: 55px
+        padding: 5px 15px
+        border-radius: 0
+        text-align: center
+        background: transparent
+        border: 1px solid $border-color
+        
+.discount-wrapper
+    input
+        width: 200px
+        border-radius: 10px
+        +gapTB(margin, 5px)
+        
+/* Checkout Page */
+.checkout-faqs
+    .alert
+        padding: 20px 30px
+        margin-bottom: 25px
+        +res-bl(xs)
+            +gapLR(padding, 20px)
+        h6
+            margin-bottom: 0
+            a
+                padding: 0
+                background: transparent
+                border-bottom-color: $primary-color
+        form
+            padding: 20px 0 10px
+            .form-footer
+                display: flex
+                align-items: center
+                margin-bottom: 15px
+                button
+                    margin-right: 15px
+                    +res-bl(xs)
+                        margin-right: 8px
+                        +gapLR(padding, 20px)
+                label
+                    line-height: 1.4
+                    margin: 0 0 0 5px
+    .checkout-form
+        h5
+            margin-bottom: 20px
