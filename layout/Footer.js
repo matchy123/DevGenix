@@ -37,9 +37,9 @@ const FooterMenu = () => {
           >
             <div className="footer-widget footer-newsletter">
               <div className="footer-logo mb-20">
-                <Link href="/">
+                {/* <Link href="/">
                   <img src="assets/images/logos/logo.png" alt="Logo" />
-                </Link>
+                </Link> */}
               </div>
               <p>
                 High-quality content the heart successful marketing strategy
@@ -191,11 +191,11 @@ const FooterMenu = () => {
         <div className="container bordered-x bordered-top pt-30 pb-15">
           <div className="row">
             <div className="col-lg-5">
-              <div className="copyright-text text-center text-lg-start">
+              {/* <div className="copyright-text text-center text-lg-start">
                 <p>
                   Copyright © <Link href="/">Ridda</Link>, all rights reserved.
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-7 text-center text-lg-end">
               <ul className="footer-bottom-nav">
@@ -257,9 +257,9 @@ const Footer1 = () => {
           >
             <div className="footer-widget footer-newsletter">
               <div className="footer-logo mb-20">
-                <Link href="/">
+                {/* <Link href="/">
                   <img src="assets/images/logos/logo.png" alt="Logo" />
-                </Link>
+                </Link> */}
               </div>
               <p>
                 High-quality content the heart successful marketing strategy
@@ -359,11 +359,11 @@ const Footer1 = () => {
         <div className="container bordered-x bordered-top pt-25 pb-10">
           <div className="row">
             <div className="col-lg-5">
-              <div className="copyright-text text-center text-lg-start">
+              {/* <div className="copyright-text text-center text-lg-start">
                 <p>
                   Copyright © <Link href="/">Ridda</Link>, all rights reserved.
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-7 text-center text-lg-end">
               <ul className="footer-bottom-nav">
@@ -561,11 +561,11 @@ const Footer3 = () => {
         <div className="container px-sm-0 bordered-x bordered-top pt-30 pb-15">
           <div className="row">
             <div className="col-lg-5">
-              <div className="copyright-text text-center text-lg-start">
+              {/* <div className="copyright-text text-center text-lg-start">
                 <p>
                   Copyright © <Link href="/">Ridda</Link>, all rights reserved.
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-7 text-center text-lg-end">
               <ul className="footer-bottom-nav">
@@ -669,11 +669,11 @@ const Footer5 = () => {
               </div>
             </div>
             <div className="col-md-9 text-center text-lg-end">
-              <div className="copyright-text text-center text-md-end">
+              {/* <div className="copyright-text text-center text-md-end">
                 <p>
                   Copyright © <Link href="/">Ridda</Link>, all rights reserved.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Scroll Top Button */}
