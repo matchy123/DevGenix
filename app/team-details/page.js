@@ -1,9 +1,9 @@
 import PageBanner from "@/components/PageBanner";
 import ProgressBar from "@/components/ProgressBar";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Team Details" pageName="Team Details" />
       <section className="team-details-area">
         <div className="container bordered-x py-130 rpy-100">
@@ -155,7 +155,7 @@ const page = () => {
           </div>
         </div>
       </section>
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

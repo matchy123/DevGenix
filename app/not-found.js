@@ -1,10 +1,10 @@
 import PageBanner from "@/components/PageBanner";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 
 const NotFound = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner textCenter={true} pageTitle="404" pageName="404 Error" />
       <section className="error-area py-130 rpy-100 rel z-1">
         <div className="container">
@@ -45,7 +45,7 @@ const NotFound = () => {
           </div>
         </div>
       </section>
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default NotFound;

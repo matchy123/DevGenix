@@ -3,11 +3,11 @@ import CaseStudies from "@/components/CaseStudies";
 import ClientSlider from "@/components/sliders/ClientSlider";
 import { TestimonialsSlider4 } from "@/components/sliders/TestimonialSlider";
 import WorkingProcess from "@/components/WorkingProcess";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <RiddaLayout header={4} footer={4} bodyClass="home-four dark-version">
+    <DevGenixLayout header={4} footer={4} bodyClass="home-four dark-version">
       {/* Hero Area Start */}
       <section className="hero-area-three rel z-2 pt-95 rpt-70 pb-130 rpb-100">
         <div className="container container-1290">
@@ -212,10 +212,10 @@ const page = () => {
                 </div>
                 <div className="logo">
                   <Link href="/">
-                    <img
+                    {/* <img
                       src="assets/images/logos/logo-two-white.png"
                       alt="Logo"
-                    />
+                    /> */}
                   </Link>
                 </div>
               </div>
@@ -780,7 +780,7 @@ const page = () => {
         </div>
       </section>
       {/* Contact area end */}
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

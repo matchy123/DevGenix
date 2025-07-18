@@ -4,12 +4,12 @@ import CTA from "@/components/CTA";
 import Services from "@/components/Services";
 import ClientSlider from "@/components/sliders/ClientSlider";
 import { TestimonialSlider1 } from "@/components/sliders/TestimonialSlider";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       {/* Hero Area Start */}
       <section className="hero-area-four bgc-black text-white rel z-2">
         <div className="container px-xxl-0 bordered-x pt-180 rpt-90">
@@ -172,7 +172,7 @@ const page = () => {
                   <span className="subtitle mt-10 mb-15">About Agency</span>
                   <h2>
                     Technology Transforming Ideas into Reality Empowering Brands
-                    with Engaging <span>Ridda</span> Agency
+                    with Engaging <span>DevGenix</span> Agency
                   </h2>
                 </div>
                 <p>
@@ -562,7 +562,7 @@ const page = () => {
       {/* CTA Area start */}
       <CTA />
       {/* CTA Area end */}
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

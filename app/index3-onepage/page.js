@@ -5,7 +5,7 @@ import ClientSlider from "@/components/sliders/ClientSlider";
 import { TestimonialsSlider3 } from "@/components/sliders/TestimonialSlider";
 import { WhyChooseUs2 } from "@/components/WhyChooseUs";
 import { WorkingProcess2 } from "@/components/WorkingProcess";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   const menus = [
@@ -17,7 +17,7 @@ const page = () => {
     { id: 6, text: "Blog", href: "#blog" },
   ];
   return (
-    <RiddaLayout
+    <DevGenixLayout
       bodyClass="home-three dark-version"
       header={3}
       footer={3}
@@ -482,7 +482,7 @@ const page = () => {
         </div>
       </section>
       {/* CTA Area End */}
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

@@ -1,5 +1,5 @@
 import PageBanner from "@/components/PageBanner";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   const projects = [
@@ -35,7 +35,7 @@ const page = () => {
     },
   ];
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Project List" pageName="Project List" />
       <section className="project-list py-130 rpy-100">
         <div className="container container-1290">
@@ -97,7 +97,7 @@ const page = () => {
           </div>
         </div>
       </section>
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

@@ -45,7 +45,7 @@ const About = ({ counter }) => {
                 <span className="subtitle mt-10 mb-15">About Agency</span>
                 <h2>
                   Technology Transforming Ideas into Reality Empowering Brands
-                  with Engaging <span>Ridda</span> Agency
+                  with Engaging <span>DevGenix</span> Agency
                 </h2>
               </div>
               <p>

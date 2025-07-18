@@ -1,7 +1,7 @@
 import ClientSlider from "@/components/sliders/ClientSlider";
 import { TestimonialsSlider2 } from "@/components/sliders/TestimonialSlider";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   const menus = [
@@ -13,7 +13,7 @@ const page = () => {
     { id: 6, text: "Blog", href: "#blog" },
   ];
   return (
-    <RiddaLayout
+    <DevGenixLayout
       bodyClass="home-two dark-version"
       header={2}
       footer={2}
@@ -62,7 +62,7 @@ const page = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  <img src="assets/images/logos/logo-two.png" alt="Logo" />
+                  {/* <img src="assets/images/logos/logo-two.png" alt="Logo" /> */}
                 </Link>
               </div>
               <div className="icon one p-15">
@@ -153,7 +153,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  At Ridda we offer a comprehensive range of social media
+                  At DevGenix Agency we offer a comprehensive range of social media
                   marketing services to help businesses of all sizes succeed
                   online transactions are completed.
                 </p>
@@ -452,10 +452,10 @@ const page = () => {
               <div className="about-content ms-xl-5 rmb-55">
                 <div className="section-title mb-30">
                   <span className="subtitle mt-10 mb-15">Who We Are</span>
-                  <h2>About Our Ridda Agency</h2>
+                  <h2>About Our DevGenix Agency</h2>
                 </div>
                 <p>
-                  At Ridda , we're passionate about helping businesses succeed
+                  At DevGenix Agency, we're passionate about helping businesses succeed
                   in the digital world. With years of experience and a
                   dedication to innovation, we've built a reputation for
                   delivering exceptional results
@@ -936,7 +936,7 @@ const page = () => {
         </div>
       </section>
       {/* Contact Form Area end */}
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

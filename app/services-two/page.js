@@ -2,11 +2,11 @@ import CTA from "@/components/CTA";
 import PageBanner from "@/components/PageBanner";
 import { Services2 } from "@/components/Services";
 import { WorkingProcess2 } from "@/components/WorkingProcess";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Service" pageName="Service_02" />
 
       <section className="why-choose-area rel z-1">
@@ -111,7 +111,7 @@ const page = () => {
       <WorkingProcess2 extraClass="bgc-lighter" />
       <Services2 extraClass="pt-130 rpt-100" />
       <CTA />
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

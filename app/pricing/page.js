@@ -1,14 +1,14 @@
 import { Faq2 } from "@/components/Faq";
 import PageBanner from "@/components/PageBanner";
 import { Priceing2 } from "@/components/Priceing";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Pricing" pageName="Pricing table" />
       <Priceing2 />
       <Faq2 />
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

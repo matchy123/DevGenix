@@ -5,11 +5,11 @@ import ClientSlider from "@/components/sliders/ClientSlider";
 import { TestimonialsSlider3 } from "@/components/sliders/TestimonialSlider";
 import { WhyChooseUs2 } from "@/components/WhyChooseUs";
 import { WorkingProcess2 } from "@/components/WorkingProcess";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <RiddaLayout bodyClass="home-three dark-version" header={3} footer={3}>
+    <DevGenixLayout bodyClass="home-three dark-version" header={3} footer={3}>
       {/* Hero Area Start */}
       <section className="hero-area-two bgc-black text-white rel z-2">
         <div
@@ -469,7 +469,7 @@ const page = () => {
         </div>
       </section>
       {/* CTA Area End */}
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

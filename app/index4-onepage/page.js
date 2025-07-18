@@ -3,7 +3,7 @@ import CaseStudies from "@/components/CaseStudies";
 import ClientSlider from "@/components/sliders/ClientSlider";
 import { TestimonialsSlider4 } from "@/components/sliders/TestimonialSlider";
 import WorkingProcess from "@/components/WorkingProcess";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   const menus = [
@@ -15,7 +15,7 @@ const page = () => {
     { id: 6, text: "Blog", href: "#blog" },
   ];
   return (
-    <RiddaLayout
+    <DevGenixLayout
       header={4}
       footer={4}
       bodyClass="home-four dark-version"
@@ -196,7 +196,7 @@ const page = () => {
                     About Agency
                   </span>
                   <h2>
-                    Welcome Ridda Video Marketing Agency to grow your business
+                    Welcome DevGenix Video Marketing Agency to grow your business
                   </h2>
                 </div>
                 <p>
@@ -228,10 +228,10 @@ const page = () => {
                 </div>
                 <div className="logo">
                   <Link href="/">
-                    <img
+                    {/* <img
                       src="assets/images/logos/logo-two-white.png"
                       alt="Logo"
-                    />
+                    /> */}
                   </Link>
                 </div>
               </div>
@@ -579,7 +579,7 @@ const page = () => {
               <div className="why-choose-left py-100 d-flex flex-column h-100 align-items-start">
                 <div className="section-title mb-45">
                   <span className="subtitle mt-10 mb-15">Why Choose Us?</span>
-                  <h2>Why People Choose Our Ridda Agency Service</h2>
+                  <h2>Why People Choose Our DevGenix Agency Service</h2>
                 </div>
                 <div className="text mt-auto">
                   Video marketing has become a powerful tool for businesses to
@@ -802,7 +802,7 @@ const page = () => {
         </div>
       </section>
       {/* Contact area end */}
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

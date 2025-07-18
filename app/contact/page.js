@@ -1,9 +1,9 @@
 import PageBanner from "@/components/PageBanner";
 import { WhyChooseUs3 } from "@/components/WhyChooseUs";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Contact" pageName="Contact" />
       <WhyChooseUs3 className="why-choose-contact-page" />
       <section className="contact-form-area">
@@ -227,7 +227,7 @@ const page = () => {
           </div>
         </div>
       </section>
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

@@ -1,6 +1,6 @@
 import Aos from "aos";
 
-export const riddaUtils = {
+export const devgenixUtils = {
   animation() {
     Aos.init();
   },

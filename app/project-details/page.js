@@ -1,9 +1,9 @@
 import PageBanner from "@/components/PageBanner";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner
         pageTitle="Project Details"
         pageName="Project Details"
@@ -342,7 +342,7 @@ const page = () => {
           </div>
         </div>
       </section>
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

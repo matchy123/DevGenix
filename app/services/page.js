@@ -3,11 +3,11 @@ import PageBanner from "@/components/PageBanner";
 import Services from "@/components/Services";
 import { WhyChooseUs3 } from "@/components/WhyChooseUs";
 import WorkingProcess from "@/components/WorkingProcess";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Service" pageName="Service_01" />
       <section className="what-we-provide-area rel z-1">
         <div className="container px-sm-0 bordered-x py-130 rpy-100">
@@ -63,7 +63,7 @@ const page = () => {
       <Services extraClass="bgc-black text-white" />
       <WhyChooseUs3 />
       <Faq2 />
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

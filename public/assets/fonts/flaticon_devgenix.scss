@@ -1,0 +1,181 @@
+$flaticon_devgenix-font: "flaticon_devgenix";
+
+@font-face {
+    font-family: $flaticon_devgenix-font;
+    src: url("./flaticon_devgenix.woff2?330fcd52a61cb9bfb3604ed10546984f") format("woff2"),
+url("./flaticon_devgenix.woff?330fcd52a61cb9bfb3604ed10546984f") format("woff"),
+url("./flaticon_devgenix.eot?330fcd52a61cb9bfb3604ed10546984f#iefix") format("embedded-opentype"),
+url("./flaticon_devgenix.ttf?330fcd52a61cb9bfb3604ed10546984f") format("truetype"),
+url("./flaticon_devgenix.svg?330fcd52a61cb9bfb3604ed10546984f#flaticon_devgenix") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_devgenix !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_devgenix-map: (
+    "twitter": "\f101",
+    "social-media-marketing": "\f102",
+    "creative": "\f103",
+    "communities": "\f104",
+    "promotion": "\f105",
+    "quotation-mark": "\f106",
+    "trophy": "\f107",
+    "megaphone": "\f108",
+    "search": "\f109",
+    "target": "\f10a",
+    "performance": "\f10b",
+    "seo": "\f10c",
+    "keywords": "\f10d",
+    "search-engine": "\f10e",
+    "link-building": "\f10f",
+    "www": "\f110",
+    "world-map": "\f111",
+    "email": "\f112",
+    "call": "\f113",
+    "asterisk": "\f114",
+    "film-camera": "\f115",
+    "video-marketing": "\f116",
+    "animate": "\f117",
+    "live-streaming": "\f118",
+    "curve": "\f119",
+    "leadership": "\f11a",
+    "satisfaction": "\f11b",
+    "networking": "\f11c",
+    "job-seeker": "\f11d",
+    "job-search": "\f11e",
+    "customer-service": "\f11f",
+    "setting": "\f120",
+    "timing": "\f121",
+    "responsive": "\f122",
+    "online-shopping": "\f123",
+    "tool": "\f124",
+    "solution": "\f125",
+    "customer-support": "\f126",
+    "mail-box": "\f127",
+);
+
+.flaticon-twitter:before {
+    content: map-get($flaticon_devgenix-map, "twitter");
+}
+.flaticon-social-media-marketing:before {
+    content: map-get($flaticon_devgenix-map, "social-media-marketing");
+}
+.flaticon-creative:before {
+    content: map-get($flaticon_devgenix-map, "creative");
+}
+.flaticon-communities:before {
+    content: map-get($flaticon_devgenix-map, "communities");
+}
+.flaticon-promotion:before {
+    content: map-get($flaticon_devgenix-map, "promotion");
+}
+.flaticon-quotation-mark:before {
+    content: map-get($flaticon_devgenix-map, "quotation-mark");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon_devgenix-map, "trophy");
+}
+.flaticon-megaphone:before {
+    content: map-get($flaticon_devgenix-map, "megaphone");
+}
+.flaticon-search:before {
+    content: map-get($flaticon_devgenix-map, "search");
+}
+.flaticon-target:before {
+    content: map-get($flaticon_devgenix-map, "target");
+}
+.flaticon-performance:before {
+    content: map-get($flaticon_devgenix-map, "performance");
+}
+.flaticon-seo:before {
+    content: map-get($flaticon_devgenix-map, "seo");
+}
+.flaticon-keywords:before {
+    content: map-get($flaticon_devgenix-map, "keywords");
+}
+.flaticon-search-engine:before {
+    content: map-get($flaticon_devgenix-map, "search-engine");
+}
+.flaticon-link-building:before {
+    content: map-get($flaticon_devgenix-map, "link-building");
+}
+.flaticon-www:before {
+    content: map-get($flaticon_devgenix-map, "www");
+}
+.flaticon-world-map:before {
+    content: map-get($flaticon_devgenix-map, "world-map");
+}
+.flaticon-email:before {
+    content: map-get($flaticon_devgenix-map, "email");
+}
+.flaticon-call:before {
+    content: map-get($flaticon_devgenix-map, "call");
+}
+.flaticon-asterisk:before {
+    content: map-get($flaticon_devgenix-map, "asterisk");
+}
+.flaticon-film-camera:before {
+    content: map-get($flaticon_devgenix-map, "film-camera");
+}
+.flaticon-video-marketing:before {
+    content: map-get($flaticon_devgenix-map, "video-marketing");
+}
+.flaticon-animate:before {
+    content: map-get($flaticon_devgenix-map, "animate");
+}
+.flaticon-live-streaming:before {
+    content: map-get($flaticon_devgenix-map, "live-streaming");
+}
+.flaticon-curve:before {
+    content: map-get($flaticon_devgenix-map, "curve");
+}
+.flaticon-leadership:before {
+    content: map-get($flaticon_devgenix-map, "leadership");
+}
+.flaticon-satisfaction:before {
+    content: map-get($flaticon_devgenix-map, "satisfaction");
+}
+.flaticon-networking:before {
+    content: map-get($flaticon_devgenix-map, "networking");
+}
+.flaticon-job-seeker:before {
+    content: map-get($flaticon_devgenix-map, "job-seeker");
+}
+.flaticon-job-search:before {
+    content: map-get($flaticon_devgenix-map, "job-search");
+}
+.flaticon-customer-service:before {
+    content: map-get($flaticon_devgenix-map, "customer-service");
+}
+.flaticon-setting:before {
+    content: map-get($flaticon_devgenix-map, "setting");
+}
+.flaticon-timing:before {
+    content: map-get($flaticon_devgenix-map, "timing");
+}
+.flaticon-responsive:before {
+    content: map-get($flaticon_devgenix-map, "responsive");
+}
+.flaticon-online-shopping:before {
+    content: map-get($flaticon_devgenix-map, "online-shopping");
+}
+.flaticon-tool:before {
+    content: map-get($flaticon_devgenix-map, "tool");
+}
+.flaticon-solution:before {
+    content: map-get($flaticon_devgenix-map, "solution");
+}
+.flaticon-customer-support:before {
+    content: map-get($flaticon_devgenix-map, "customer-support");
+}
+.flaticon-mail-box:before {
+    content: map-get($flaticon_devgenix-map, "mail-box");
+}

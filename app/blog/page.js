@@ -1,6 +1,6 @@
 import BlogSidebar from "@/components/BlogSidebar";
 import PageBanner from "@/components/PageBanner";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   const blogItems = [
@@ -37,7 +37,7 @@ const page = () => {
   ];
 
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Blog" pageName="Blog Grid" />
       <section className="blog-grid-page rel z-1">
         <div className="container bordered-x px-sm-0 py-130 rpy-100">
@@ -110,7 +110,7 @@ const page = () => {
           </div>
         </div>
       </section>
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

@@ -1,6 +1,6 @@
 import PageBanner from "@/components/PageBanner";
 import Team from "@/components/Team";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 const page = () => {
   const teamMembers = [
     {
@@ -45,7 +45,7 @@ const page = () => {
     },
   ];
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Team" pageName="Team Member" />
       <section className="team-page-about-area rel z-1">
         <div className="container px-sm-0 bordered-x pt-130 rpt-100">
@@ -100,7 +100,7 @@ const page = () => {
       </section>
 
       <Team bg="" teamMembers={teamMembers} />
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

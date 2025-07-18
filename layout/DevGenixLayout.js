@@ -1,11 +1,11 @@
 "use client";
 import EmbedPopup from "@/components/popup/EmbedPopup";
 import ImageView from "@/components/popup/ImageView";
-import { riddaUtils } from "@/utility";
+import { devgenixUtils } from "@/utility";
 import { Fragment, useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-const RiddaLayout = ({
+const DevGenixLayout = ({
   children,
   bodyClass = "dark-version",
   header,
@@ -13,9 +13,9 @@ const RiddaLayout = ({
   menus,
 }) => {
   useEffect(() => {
-    riddaUtils.animation();
-    riddaUtils.fixedHeader();
-    riddaUtils.scrollTop();
+    devgenixUtils.animation();
+    devgenixUtils.fixedHeader();
+    devgenixUtils.scrollTop();
     document.querySelector("body").classList = bodyClass;
   }, []);
 
@@ -31,4 +31,4 @@ const RiddaLayout = ({
     </Fragment>
   );
 };
-export default RiddaLayout;
+export default DevGenixLayout;

@@ -27,7 +27,7 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
         <div className="navbar-header rpy-10">
           <div className="mobile-logo">
             <Link href="/">
-              <img src={logo} alt="Logo" title="Logo" />
+              {/* <img src={logo} alt="Logo" title="Logo" /> */}
             </Link>
           </div>
           {/* Toggle Button */}
@@ -237,11 +237,11 @@ const Header1 = ({ menus }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img
+                  {/* <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"
                     title="Logo"
-                  />
+                  /> */}
                 </Link>
               </div>
             </div>
@@ -278,11 +278,11 @@ const Header2 = ({ menus }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img
+                  {/* <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"
                     title="Logo"
-                  />
+                  /> */}
                 </Link>
               </div>
             </div>
@@ -319,11 +319,11 @@ const Header3 = ({ menus }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img
+                  {/* <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"
                     title="Logo"
-                  />
+                  /> */}
                 </Link>
               </div>
             </div>
@@ -360,11 +360,11 @@ const Header4 = ({ menus }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img
+                  {/* <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"
                     title="Logo"
-                  />
+                  /> */}
                 </Link>
               </div>
             </div>
@@ -408,11 +408,11 @@ const Header5 = ({ menus }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img
+                  {/* <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"
                     title="Logo"
-                  />
+                  /> */}
                 </Link>
               </div>
             </div>

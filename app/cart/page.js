@@ -1,6 +1,6 @@
 "use client";
 import PageBanner from "@/components/PageBanner";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -37,7 +37,7 @@ const page = () => {
   };
 
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Cart" pageName="Shopping Cart" />
       <section className="shopping-cart-area py-130 rpy-100 rel z-1">
         <div className="container">
@@ -224,7 +224,7 @@ const page = () => {
           </div>
         </div>
       </section>
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

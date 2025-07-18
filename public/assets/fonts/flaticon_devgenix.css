@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "flaticon_ridda";
-  src: url("./flaticon_ridda.woff2?330fcd52a61cb9bfb3604ed10546984f") format("woff2"), url("./flaticon_ridda.woff?330fcd52a61cb9bfb3604ed10546984f") format("woff"), url("./flaticon_ridda.eot?330fcd52a61cb9bfb3604ed10546984f#iefix") format("embedded-opentype"), url("./flaticon_ridda.ttf?330fcd52a61cb9bfb3604ed10546984f") format("truetype"), url("./flaticon_ridda.svg?330fcd52a61cb9bfb3604ed10546984f#flaticon_ridda") format("svg"); }
+  font-family: "flaticon_devgenix";
+  src: url("./flaticon_devgenix.woff2?330fcd52a61cb9bfb3604ed10546984f") format("woff2"), url("./flaticon_devgenix.woff?330fcd52a61cb9bfb3604ed10546984f") format("woff"), url("./flaticon_devgenix.eot?330fcd52a61cb9bfb3604ed10546984f#iefix") format("embedded-opentype"), url("./flaticon_devgenix.ttf?330fcd52a61cb9bfb3604ed10546984f") format("truetype"), url("./flaticon_devgenix.svg?330fcd52a61cb9bfb3604ed10546984f#flaticon_devgenix") format("svg"); }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
-  font-family: flaticon_ridda !important;
+  font-family: flaticon_devgenix !important;
   font-style: normal;
   font-weight: normal !important;
   font-variant: normal;

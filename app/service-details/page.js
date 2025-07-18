@@ -1,9 +1,9 @@
 import CTA from "@/components/CTA";
 import PageBanner from "@/components/PageBanner";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Web Design" pageName="Service Details" />
       <section className="service-details-area rel z-1">
         <div className="container bordered-x py-130 rpy-100 px-sm-0">
@@ -135,7 +135,7 @@ const page = () => {
         </div>
       </section>
       <CTA extraClass="bordered-top" />
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

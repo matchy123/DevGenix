@@ -5,10 +5,10 @@ import ClientSlider from "@/components/sliders/ClientSlider";
 import { TestimonialSlider1 } from "@/components/sliders/TestimonialSlider";
 import Team from "@/components/Team";
 import { WhyChooseUs2 } from "@/components/WhyChooseUs";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="About Us" pageName="About Us" />
       <About counter={true} />
       <WhyChooseUs2 bg="bgc-none" />
@@ -54,7 +54,7 @@ const page = () => {
         </div>
       </section>
       <Blog2 subtitleColor="" />
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

@@ -1,9 +1,9 @@
 import BlogSidebar from "@/components/BlogSidebar";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <section className="page-banner-area bgc-black text-white rel z-1 overflow-hidden">
         <div className="container bordered-x pt-200 rpy-100 pb-140">
           <div className="banner-inner px-xl-5 pt-90">
@@ -409,7 +409,7 @@ const page = () => {
           </div>
         </div>
       </section>
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

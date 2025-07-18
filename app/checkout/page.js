@@ -1,10 +1,10 @@
 "use client";
 import PageBanner from "@/components/PageBanner";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import { Accordion } from "react-bootstrap";
 const page = () => {
   return (
-    <RiddaLayout>
+    <DevGenixLayout>
       <PageBanner pageTitle="Checkout" pageName="Checkout" />
       <div className="checkout-form-area py-130 rpy-100">
         <div className="container">
@@ -487,7 +487,7 @@ const page = () => {
           </div>
         </div>
       </div>
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;

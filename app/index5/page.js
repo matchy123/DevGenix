@@ -1,11 +1,11 @@
 import LatestWorks from "@/components/LatestWorks";
 import Priceing from "@/components/Priceing";
 import { TestimonialsSlider5 } from "@/components/sliders/TestimonialSlider";
-import RiddaLayout from "@/layout/RiddaLayout";
+import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <RiddaLayout bodyClass="home-five dark-version" header={5} footer={5}>
+    <DevGenixLayout bodyClass="home-five dark-version" header={5} footer={5}>
       {/* Hero Area Start */}
       <section
         className="hero-area-five bgp-bottom pt-220 rpt-145 pb-250 rpb-150 rel z-1"
@@ -297,7 +297,7 @@ const page = () => {
               >
                 <div className="logo pb-25 rpb-55">
                   <Link href="/">
-                    <img src="assets/images/logos/logo-footer.png" alt="Logo" />
+                    {/* <img src="assets/images/logos/logo-footer.png" alt="Logo" /> */}
                   </Link>
                 </div>
                 <h4>Next-Generation AI Tools for Smarter Business</h4>
@@ -885,14 +885,14 @@ const page = () => {
                 </div>
                 <div className="logo">
                   <Link href="/">
-                    <img
+                    {/* <img
                       src="assets/images/logos/logo-two-white.png"
                       alt="Logo"
                       data-aos="zoom-in"
                       data-aos-duration={1500}
                       data-aos-offset={50}
                       className="aos-init aos-animate"
-                    />
+                    /> */}
                   </Link>
                 </div>
               </div>
@@ -992,7 +992,7 @@ const page = () => {
         </div>
       </section>
       {/* Contact Us area end */}
-    </RiddaLayout>
+    </DevGenixLayout>
   );
 };
 export default page;
