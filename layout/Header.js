@@ -237,11 +237,7 @@ const Header1 = ({ menus }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  {/* <img
-                    src="assets/images/logos/logo.png"
-                    alt="Logo"
-                    title="Logo"
-                  /> */}
+                  DevGenix
                 </Link>
               </div>
             </div>

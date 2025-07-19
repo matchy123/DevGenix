@@ -1,5 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
 
+/* Custom Qurova Font */
+@font-face {
+  font-family: 'Qurova';
+  src: url('/assets/fonts/QurovademoRegular-DYgy0.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Qurova';
+  src: url('/assets/fonts/QurovademoMedium-pg4LZ.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Qurova';
+  src: url('/assets/fonts/QurovademoSemibold-xRZqR.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Qurova';
+  src: url('/assets/fonts/QurovademoBold-Zp2aK.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Qurova';
+  src: url('/assets/fonts/QurovademoLight-3l82z.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
 .main-menu .navbar-collapse .mobile-menu li ul {
   opacity: 1 !important;
   visibility: unset !important;
@@ -12,6 +48,15 @@
 }
 .main-menu .navbar-collapse li ul li ul {
   top: -2% !important;
+}
+/* Logo styling */
+.main-header .logo {
+  font-size: 30px;
+  font-weight: 1000;
+  color: white;
+  text-decoration: none;
+  font-family: 'Qurova', sans-serif;
+  letter-spacing: 1px;
 }
 
 /* Slider */
