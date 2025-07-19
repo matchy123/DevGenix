@@ -26,7 +26,7 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
       <Accordion>
         <div className="navbar-header rpy-10">
           <div className="mobile-logo">
-            <Link href="/">
+            <Link href="/index1-onepage">
               {/* <img src={logo} alt="Logo" title="Logo" /> */}
             </Link>
           </div>
@@ -45,182 +45,35 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
           eventKey="navbar-collapse"
           className="navbar-collapse clearfix"
         >
-          {menus ? (
-            <ul className="navigation clearfix">
-              {menus.map((menu, i) => (
-                <li key={i}>
-                  <a href={menu.href}>{menu.text}</a>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <ul className="navigation clearfix">
-              <li className="dropdown current">
-                <Link href="/">Home</Link>
-                <ul>
-                  <li className="dropdown">
-                    <Link href="/">MultiPage</Link>
-                    <ul>
-                      <li>
-                        <Link href="/">Web Design Agency</Link>
-                      </li>
-                      <li>
-                        <Link href="/index2">Social Media Marketing</Link>
-                      </li>
-                      <li>
-                        <Link href="/index3">SEO Agency</Link>
-                      </li>
-                      <li>
-                        <Link href="/index4">Video Marketing</Link>
-                      </li>
-                      <li>
-                        <Link href="/index5">Web Development</Link>
-                      </li>
-                    </ul>
-                    <div className="dropdown-btn">
-                      <span className="far fa-angle-down" />
-                    </div>
-                  </li>
-                  <li className="dropdown">
-                    <Link href="/one-page">OnePage</Link>
-                    <ul>
-                      <li>
-                        <Link href="/index1-onepage">Web Design Agency</Link>
-                      </li>
-                      <li>
-                        <Link href="/index2-onepage">
-                          Social Media Marketing
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/index3-onepage">SEO Agency</Link>
-                      </li>
-                      <li>
-                        <Link href="/index4-onepage">Video Marketing</Link>
-                      </li>
-                      <li>
-                        <Link href="/index5-onepage">Web Development</Link>
-                      </li>
-                    </ul>
-                    <div className="dropdown-btn">
-                      <span className="far fa-angle-down" />
-                    </div>
-                  </li>
-                </ul>
-                <div className="dropdown-btn">
-                  <span className="far fa-angle-down" />
-                </div>
-              </li>
-              <li>
-                <Link href="/about">About</Link>
-              </li>
-              <li className="dropdown">
-                <Link href="/services">Services</Link>
-                <ul>
-                  <li>
-                    <Link href="/services">Services 01</Link>
-                  </li>
-                  <li>
-                    <Link href="/services-two">Services 02</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">Service Details</Link>
-                  </li>
-                </ul>
-                <div className="dropdown-btn">
-                  <span className="far fa-angle-down" />
-                </div>
-              </li>
-              <li className="dropdown">
-                <Link href="/shop">Shop</Link>
-                <ul>
-                  <li>
-                    <Link href="/shop">All Products</Link>
-                  </li>
-                  <li>
-                    <Link href="/product-details">Product Details</Link>
-                  </li>
-                  <li>
-                    <Link href="/cart">Shopping Cart</Link>
-                  </li>
-                  <li>
-                    <Link href="/checkout">Checkout</Link>
-                  </li>
-                </ul>
-                <div className="dropdown-btn">
-                  <span className="far fa-angle-down" />
-                </div>
-              </li>
-              <li className="dropdown">
-                <Link href="#">Pages</Link>
-                <ul>
-                  <li>
-                    <Link href="/pricing">Pricing</Link>
-                  </li>
-                  <li>
-                    <Link href="/faqs">faqs</Link>
-                  </li>
-                  <li className="dropdown">
-                    <Link href="/projects">Projects</Link>
-                    <ul>
-                      <li>
-                        <Link href="/project-grid">Project Grid</Link>
-                      </li>
-                      <li>
-                        <Link href="/project-list">Project List</Link>
-                      </li>
-                      <li>
-                        <Link href="/project-details">Project Details</Link>
-                      </li>
-                    </ul>
-                    <div className="dropdown-btn">
-                      <span className="far fa-angle-down" />
-                    </div>
-                  </li>
-                  <li className="dropdown">
-                    <Link href="/team">Team</Link>
-                    <ul>
-                      <li>
-                        <Link href="/team">Team</Link>
-                      </li>
-                      <li>
-                        <Link href="/team-details">Team Details</Link>
-                      </li>
-                    </ul>
-                    <div className="dropdown-btn">
-                      <span className="far fa-angle-down" />
-                    </div>
-                  </li>
-                  <li>
-                    <Link href="/contact">Contact Us</Link>
-                  </li>
-                  <li>
-                    <Link href="/404">404 Error</Link>
-                  </li>
-                </ul>
-                <div className="dropdown-btn">
-                  <span className="far fa-angle-down" />
-                </div>
-              </li>
-              <li className="dropdown">
-                <Link href="/blog">blog</Link>
-                <ul>
-                  <li>
-                    <Link href="/blog">blog Grid</Link>
-                  </li>
-                  <li>
-                    <Link href="/blog-standard">blog Standard</Link>
-                  </li>
-                  <li>
-                    <Link href="/blog-details">blog details</Link>
-                  </li>
-                </ul>
-                <div className="dropdown-btn">
-                  <span className="far fa-angle-down" />
-                </div>
-              </li>
-            </ul>
-          )}
+          <ul className="navigation clearfix">
+            <li>
+              <Link href="/">Web Design</Link>
+            </li>
+            <li>
+              <Link href="/index5">Web Development</Link>
+            </li>
+            <li>
+              <Link href="/index3">SEO</Link>
+            </li>
+            <li>
+              <Link href="/index2">AI Automation</Link>
+            </li>
+            <li>
+              <Link href="/team">Team</Link>
+            </li>
+            <li>
+              <Link href="/shop">Shop</Link>
+            </li>
+            <li>
+              <Link href="/contact">Contact Us</Link>
+            </li>
+            <li>
+              <Link href="/blog">Blog</Link>
+            </li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+          </ul>
         </Accordion.Collapse>
       </Accordion>
     </nav>
@@ -236,7 +89,7 @@ const Header1 = ({ menus }) => {
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link href="/">
+                <Link href="/index1-onepage">
                   DevGenix
                 </Link>
               </div>
@@ -249,7 +102,7 @@ const Header1 = ({ menus }) => {
             {/* Menu Button */}
             <div className="menu-btns">
               <Link
-                href="project-grid"
+                href="/project-grid"
                 className="theme-btn btn-small"
                 data-hover="Start Projects"
               >
@@ -273,7 +126,7 @@ const Header2 = ({ menus }) => {
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link href="/">
+                <Link href="/index1-onepage">
                   {/* <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"
@@ -314,7 +167,7 @@ const Header3 = ({ menus }) => {
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link href="/">
+                <Link href="/index1-onepage">
                   {/* <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"
@@ -355,9 +208,9 @@ const Header4 = ({ menus }) => {
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link href="/">
+                <Link href="/index1-onepage">
                   {/* <img
-                    src="assets/images/logos/logo.png"
+                    src="assets/images/logos/logo-black.png"
                     alt="Logo"
                     title="Logo"
                   /> */}
@@ -403,7 +256,7 @@ const Header5 = ({ menus }) => {
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link href="/">
+                <Link href="/index1-onepage">
                   {/* <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"

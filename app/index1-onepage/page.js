@@ -6,6 +6,7 @@ import ClientSlider from "@/components/sliders/ClientSlider";
 import { TestimonialSlider1 } from "@/components/sliders/TestimonialSlider";
 import DevGenixLayout from "@/layout/DevGenixLayout";
 import Link from "next/link";
+import Priceing from "@/components/Priceing";
 
 const page = () => {
   const menus = [
@@ -577,6 +578,7 @@ const page = () => {
       {/* CTA Area start */}
       <CTA />
       {/* CTA Area end */}
+      <Priceing />
     </DevGenixLayout>
   );
 };
