@@ -1,5 +1,6 @@
 import CTA from "@/components/CTA";
 import PageBanner from "@/components/PageBanner";
+import Priceing from "@/components/Priceing";
 import DevGenixLayout from "@/layout/DevGenixLayout";
 const page = () => {
   return (
@@ -134,6 +135,7 @@ const page = () => {
           </ul>
         </div>
       </section>
+      <Priceing />
       <CTA extraClass="bordered-top" />
     </DevGenixLayout>
   );
