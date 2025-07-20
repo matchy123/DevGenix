@@ -6,26 +6,25 @@ const Services = ({ extraClass = "" }) => {
       id: 1,
       image: "assets/images/services/service-timeline1.jpg",
       title: "Web Design",
+      link: "/", // keep as is
     },
     {
       id: 2,
       image: "assets/images/services/service-timeline2.jpg",
-      title: "Branding",
+      title: "Web Development",
+      link: "/index5",
     },
     {
       id: 3,
       image: "assets/images/services/service-timeline3.jpg",
       title: "SEO",
+      link: "/index3",
     },
     {
       id: 4,
       image: "assets/images/services/service-timeline4.jpg",
-      title: "Motion Design",
-    },
-    {
-      id: 5,
-      image: "assets/images/services/service-timeline5.jpg",
-      title: "3D Animation",
+      title: "AI Automation",
+      link: "/index2",
     },
   ];
   return (
@@ -40,20 +39,20 @@ const Services = ({ extraClass = "" }) => {
               data-aos-offset={50}
             >
               <span className="subtitle mt-10 mb-15">Services</span>
-              <h2>Creative &amp; Modern Services</h2>
+              <h2>Creative and Modern Services</h2>
             </div>
           </div>
         </div>
-        {services.map(({ id, image, title }) => (
+        {services.map(({ id, image, title, link }) => (
           <div key={id} className="service-limeline-item">
             <span className="number">{id < 10 ? `0${id}` : id}</span>
             <span className="h1">
-              <Link href="service-details">{title}</Link>
+              <Link href={link}>{title}</Link>
             </span>
             <div className="image">
               <img src={image} alt="Service" />
             </div>
-            <Link href="service-details" className="detail-btn">
+            <Link href={link} className="detail-btn">
               <i className="far fa-arrow-right" />
             </Link>
           </div>

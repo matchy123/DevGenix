@@ -40,13 +40,6 @@ const page = () => {
                   >
                     <span>Get Your SEO Audit</span>
                   </Link>
-                  <Link
-                    href="services"
-                    className="theme-btn color-white mt-15"
-                    data-hover="Explore Services"
-                  >
-                    <span>Explore Services</span>
-                  </Link>
                 </div>
               </div>
             </div>

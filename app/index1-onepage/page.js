@@ -256,8 +256,7 @@ const page = () => {
                     <br /> Strategy
                   </h5>
                   <p>
-                    We begin by understanding your brand, goals, and target
-                    audience competitive
+                    We conduct in-depth research to understand your business, audience, and goals, then craft a tailored strategy for your project.
                   </p>
                 </div>
               </div>
@@ -275,8 +274,7 @@ const page = () => {
                     <br /> Prototyping
                   </h5>
                   <p>
-                    We begin by understanding your brand, goals, and target
-                    audience competitive
+                    We create modern, user-friendly designs and interactive prototypes for your review.
                   </p>
                 </div>
                 <div className="circle" />
@@ -308,8 +306,7 @@ const page = () => {
                     <br /> and Testing
                   </h5>
                   <p>
-                    We begin by understanding your brand, goals, and target
-                    audience competitive
+                    We build your website or application using modern technologies, followed by thorough testing for quality, performance, and security.
                   </p>
                 </div>
               </div>
@@ -327,8 +324,7 @@ const page = () => {
                     <br /> Support
                   </h5>
                   <p>
-                    We begin by understanding your brand, goals, and target
-                    audience competitive
+                    After launch, we provide ongoing support, updates, and optimization to ensure your project’s continued success and growth.
                   </p>
                 </div>
                 <div className="circle" />
