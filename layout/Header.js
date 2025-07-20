@@ -45,35 +45,29 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
           eventKey="navbar-collapse"
           className="navbar-collapse clearfix"
         >
-          <ul className="navigation clearfix">
+            <ul className="navigation clearfix">
             <li>
-              <Link href="/service-details">Web Design</Link>
-            </li>
-            <li>
-              <Link href="/index5">Web Development</Link>
-            </li>
+              <Link href="/">Web Design</Link>
+                      </li>
+                      <li>
+                        <Link href="/index5">Web Development</Link>
+                      </li>
             <li>
               <Link href="/index3">SEO</Link>
-            </li>
-            <li>
+                      </li>
+                      <li>
               <Link href="/index2">AI Automation</Link>
-            </li>
-            <li>
-              <Link href="/team">Team</Link>
-            </li>
-            <li>
-              <Link href="/shop">Shop</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contact Us</Link>
-            </li>
-            <li>
-              <Link href="/blog">Blog</Link>
-            </li>
-            <li>
-              <Link href="/about">About</Link>
-            </li>
-          </ul>
+                      </li>
+                      <li>
+                <Link href="/contact">Contact Us</Link>
+              </li>
+              <li>
+                <Link href="/about">About</Link>
+              </li>
+              <li>
+                <Link href="/shop">Shop</Link>
+              </li>
+            </ul>
         </Accordion.Collapse>
       </Accordion>
     </nav>

@@ -663,11 +663,6 @@ const Footer5 = () => {
       <div className="container container-1290">
         <div className="footer-bottom bordered-top pt-30 pb-10">
           <div className="row">
-            <div className="col-md-3">
-              <div className="logo mb-15 text-center text-md-start">
-                <img src="assets/images/logos/logo-footer.png" alt="Logo" />
-              </div>
-            </div>
             <div className="col-md-9 text-center text-lg-end">
               {/* <div className="copyright-text text-center text-md-end">
                 <p>

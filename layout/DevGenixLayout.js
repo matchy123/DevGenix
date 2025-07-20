@@ -5,7 +5,6 @@ import { devgenixUtils } from "@/utility";
 import { Fragment, useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import Blog from "@/components/Blog";
 const DevGenixLayout = ({
   children,
   bodyClass = "dark-version",
@@ -27,7 +26,6 @@ const DevGenixLayout = ({
       <div className="page-wrapper">
         <Header header={header} menus={menus} />
         {children}
-        <Blog />
         <Footer footer={footer} />
       </div>
     </Fragment>
