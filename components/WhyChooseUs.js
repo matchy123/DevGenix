@@ -208,17 +208,17 @@ export const WhyChooseUs2 = ({ bg = "bgc-lighter" }) => {
     {
       icon: "fas fa-tools",
       title: "Expertise and Experience",
-      text: "With over 10+ years of experience in the industry team seasoned SEO professionals brings knowledge",
+      text: "With over 8+ years of experience in digital solutions, our seasoned professionals bring deep knowledge and innovative approaches to every project.",
     },
     {
       icon: "fas fa-anchor",
       title: "Customized Solutions",
-      text: "We understand that every business is unique. That's why we take a tailored approach to SEO",
+      text: "We understand that every business is unique. That's why we take a tailored approach to create digital solutions that perfectly fit your specific needs.",
     },
     {
       icon: "fas fa-comments",
       title: "Transparency & Communication",
-      text: "We believe in open and transparent communication with our clients every step of the way.",
+      text: "We believe in open and transparent communication with our clients every step of the way, ensuring you're always informed and involved.",
     },
   ];
 
@@ -233,8 +233,8 @@ export const WhyChooseUs2 = ({ bg = "bgc-lighter" }) => {
             data-aos-offset={50}
           >
             <div className="section-title mb-45">
-              <span className="subtitle mt-10 mb-15">Why Choose Us?</span>
-              <h2>SEO Strategies Tailored to Your Business Needs</h2>
+              <span className="subtitle mt-10 mb-15">Why Choose Ridaa?</span>
+              <h2>Digital Solutions Tailored to Your Business Success</h2>
             </div>
             <img
               className="br-5"

@@ -30,7 +30,7 @@ const About = ({ counter }) => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                Mobile Apps Design
+                AI Automation
               </div>
             </div>
           </div>
@@ -49,16 +49,13 @@ const About = ({ counter }) => {
                 </h2>
               </div>
               <p>
-                At our web design agency, we specialize in creating visually
-                stunning and highly functional websites that help businesses
-                stand out in the digital world. Our team of talented designers
-                and developers are passionate about crafting
+                DevGenix Agency is your partner in digital transformation. We specialize in building impactful websites, robust web applications, and creative digital solutions that help brands grow and thrive online. Our multidisciplinary team blends strategy, design, and technology to deliver tailored results for every client. Whether you need a stunning new website, a custom business platform, or a full-scale digital marketing campaign, DevGenix is committed to elevating your business in the digital era.
               </p>
               <ul className="list-style-one my-30">
                 <li>Digital Product Design</li>
                 <li>SEO Optimization</li>
                 <li>Web Development</li>
-                <li>Mobile Apps Design</li>
+                <li>AI Automation</li>
               </ul>
               <Link
                 href="project-list"

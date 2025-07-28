@@ -5,23 +5,23 @@ const Team = ({
   teamMembers = [
     {
       image: "assets/images/team/team-two1.png",
-      name: "Kenneth S. Brown",
-      designation: "Ceo &amp; Founder",
+      name: "Sarah Johnson",
+      designation: "CEO & Founder",
     },
     {
       image: "assets/images/team/team-two2.png",
-      name: "Norman D. Hogan",
-      designation: "Web Designer",
+      name: "Michael Chen",
+      designation: "Lead Web Developer",
     },
     {
       image: "assets/images/team/team-two3.png",
-      name: "Mike L. Quattlebaum",
-      designation: "Apps Developer",
+      name: "Emily Rodriguez",
+      designation: "UI/UX Designer",
     },
     {
       image: "assets/images/team/team-two4.png",
-      name: "Kenneth M. Smith",
-      designation: "Graphics Designer",
+      name: "David Thompson",
+      designation: "Digital Marketing Specialist",
     },
   ],
 }) => {
@@ -37,7 +37,7 @@ const Team = ({
               data-aos-offset={50}
             >
               <span className="subtitle mt-10 mb-15">Meet Our Team</span>
-              <h2>Meet Our Experience Team Memeber</h2>
+              <h2>Meet Our Expert Team Members</h2>
             </div>
           </div>
         </div>

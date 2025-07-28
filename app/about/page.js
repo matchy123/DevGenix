@@ -26,13 +26,12 @@ const page = () => {
                 >
                   <div className="section-title mb-30">
                     <span className="subtitle mt-10 mb-15">
-                      Out Testimonials
+                      Our Testimonials
                     </span>
-                    <h2>1580+ Customer Say About Our Services</h2>
+                    <h2>What Our Clients Say About DevGenix</h2>
                   </div>
                   <p>
-                    A web design agency is dedicated to creating visually
-                    stunning and highly functional websites.
+                    DevGenix is dedicated to creating exceptional digital experiences that drive business growth and exceed client expectations.
                   </p>
                   <div className="testimonial-dots mt-45" />
                 </div>
