@@ -270,16 +270,23 @@ export const WhyChooseUs2 = ({ bg = "bgc-lighter" }) => {
 
 export const WhyChooseUs3 = ({ className = "why-choose-two-area" }) => {
   const steps = [
-    { number: "01", title: "Modern & Creative Design", icon: "flaticon-curve" },
+    { 
+      number: "01", 
+      title: "Innovative Design Solutions", 
+      icon: "flaticon-curve",
+      description: "We create cutting-edge designs that not only look stunning but also drive results. Our creative approach ensures your brand stands out in today's competitive digital landscape."
+    },
     {
       number: "02",
-      title: "Dedicated Team Member",
+      title: "Expert Development Team",
       icon: "flaticon-leadership",
+      description: "Our skilled developers bring years of experience and technical expertise to every project. We deliver robust, scalable solutions that grow with your business."
     },
     {
       number: "03",
-      title: "Satisfaction guaranteed",
+      title: "100% Client Satisfaction",
       icon: "flaticon-satisfaction",
+      description: "Your success is our priority. We work closely with you throughout the entire process, ensuring every detail meets your expectations and business goals."
     },
   ];
 
@@ -295,12 +302,12 @@ export const WhyChooseUs3 = ({ className = "why-choose-two-area" }) => {
           >
             <div className="section-title mt-10 mb-30">
               <span className="subtitle mb-15">Why Choose Us</span>
-              <h2>Discover the advantages of our services</h2>
+              <h2>Transform Your Vision Into Digital Reality</h2>
             </div>
           </div>
         </div>
         <div className="row justify-content-center">
-          {steps.map(({ number, title, icon }) => (
+          {steps.map(({ number, title, icon, description }) => (
             <div
               key={number}
               className="col-xl-4 col-md-6"
@@ -316,8 +323,7 @@ export const WhyChooseUs3 = ({ className = "why-choose-two-area" }) => {
                   <Link href="service-details">{title}</Link>
                 </h5>
                 <p>
-                  We design are mobile-friendly and fully responsive. This means
-                  they will look and function perfectly on all devices.
+                  {description}
                 </p>
               </div>
             </div>

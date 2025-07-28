@@ -42,8 +42,7 @@ const FooterMenu = () => {
                 </Link> */}
               </div>
               <p>
-                High-quality content the heart successful marketing strategy
-                drives engage.
+                Transforming ideas into digital excellence. We craft innovative solutions that drive your business forward.
               </p>
               <form className="newsletter-form mt-25" action="#">
                 <label htmlFor="news-email">
@@ -262,8 +261,7 @@ const Footer1 = () => {
                 </Link> */}
               </div>
               <p>
-                High-quality content the heart successful marketing strategy
-                drives engage.
+                Transforming ideas into digital excellence. We craft innovative solutions that drive your business forward.
               </p>
               <form className="newsletter-form mt-25" action="#">
                 <label htmlFor="news-email">
@@ -296,10 +294,10 @@ const Footer1 = () => {
               >
                 <div className="footer-widget footer-text">
                   <div className="footer-title">
-                    <h6>Location</h6>
+                    <h6>Business Hours</h6>
                   </div>
                   <div className="text">
-                    55 Main Street, 2nd block Malborne, Australia
+                    Monday - Saturday: 24/7
                   </div>
                 </div>
               </div>
@@ -317,7 +315,7 @@ const Footer1 = () => {
                   <div className="text">
                     <a href="mailto:support@gmail.com">support@gmail.com</a>
                     <br />
-                    <a href="callto:+000(123)8899">+000 (123) 88 99</a>
+                    <a href="callto:+254741470643">+254 741 470 643</a>
                   </div>
                 </div>
               </div>
@@ -423,17 +421,6 @@ const Footer3 = () => {
               </div>
               <div className="contact-info-two-item">
                 <div className="icon">
-                  <i className="flaticon-world-map" />
-                </div>
-                <div className="text">
-                  Main Location
-                  <span className="h6">
-                    57 Main Street, Melbourne, Australia
-                  </span>
-                </div>
-              </div>
-              <div className="contact-info-two-item">
-                <div className="icon">
                   <i className="flaticon-email" />
                 </div>
                 <div className="text">
@@ -450,7 +437,7 @@ const Footer3 = () => {
                 <div className="text">
                   Need Helps
                   <span className="h6">
-                    <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                    <a href="callto:+254741470643">+254 741 470 643</a>
                   </span>
                 </div>
               </div>
@@ -481,7 +468,7 @@ const Footer3 = () => {
                       id="name"
                       name="name"
                       className="form-control"
-                      placeholder="Full Name"
+                      placeholder="Your Full Name"
                       defaultValue
                       required
                     />

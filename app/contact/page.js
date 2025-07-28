@@ -33,22 +33,6 @@ const page = () => {
                         data-aos-delay={50}
                       >
                         <div className="icon">
-                          <i className="far fa-map-marker-alt" />
-                        </div>
-                        <div className="text">
-                          57 Main Street, d-block Melbourne, Australia
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
-                      <div
-                        className="contact-info-item"
-                        data-aos="zoom-in"
-                        data-aos-duration={1500}
-                        data-aos-offset={50}
-                        data-aos-delay={50}
-                      >
-                        <div className="icon">
                           <i className="far fa-envelope" />
                         </div>
                         <div className="text">
@@ -74,9 +58,7 @@ const page = () => {
                           <i className="far fa-phone-volume" />
                         </div>
                         <div className="text">
-                          <a href="callto:+880(123)45688">+880 (123) 456 88</a>
-                          <br />
-                          <a href="callto:+001(234)56897">+001 (234) 56897</a>
+                          <a href="callto:+254741470643">+254 741 470 643</a>
                         </div>
                       </div>
                     </div>
@@ -92,8 +74,8 @@ const page = () => {
                           <i className="far fa-clock" />
                         </div>
                         <div className="text">
-                          Monday - Friday <br />
-                          08:00am - 05:00pm
+                          Monday - Saturday <br />
+                          24/7
                         </div>
                       </div>
                     </div>
@@ -126,7 +108,7 @@ const page = () => {
                           id="name"
                           name="name"
                           className="form-control"
-                          placeholder="Fernando H. Cruz"
+                          placeholder="John Doe"
                           required
                           data-error="Please enter your Name"
                         />
@@ -210,20 +192,6 @@ const page = () => {
                 </form>
               </div>
             </div>
-          </div>
-          <div
-            className="our-location mt-100"
-            data-aos="fade-up"
-            data-aos-duration={1500}
-            data-aos-offset={50}
-          >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96777.16150026117!2d-74.00840582560909!3d40.71171357405996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1706508986625!5m2!1sen!2sbd"
-              style={{ border: 0, width: "100%" }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
           </div>
         </div>
       </section>
