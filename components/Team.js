@@ -5,23 +5,23 @@ const Team = ({
   teamMembers = [
     {
       image: "assets/images/team/team-two1.png",
-      name: "Sarah Johnson",
-      designation: "CEO & Founder",
+      name: "Diko Mohamed",
+      designation: "Team Lead & Founder",
     },
     {
       image: "assets/images/team/team-two2.png",
-      name: "Michael Chen",
-      designation: "Lead Web Developer",
+      name: "Frank Kobaai",
+      designation: "UI UX Designer",
     },
     {
       image: "assets/images/team/team-two3.png",
-      name: "Emily Rodriguez",
-      designation: "UI/UX Designer",
+      name: "Lesiamon Mpoe",
+      designation: "Fullstack Developer",
     },
     {
       image: "assets/images/team/team-two4.png",
-      name: "David Thompson",
-      designation: "Digital Marketing Specialist",
+      name: "Zaquir Maina",
+      designation: "DevOps Engineer",
     },
   ],
 }) => {
