@@ -130,6 +130,7 @@ a.theme-btn
         transform: translateY(50%)
     &:hover
         background: white
+        color: $heading-color
         span
             opacity: 0
             transform: translateY(-50%)
@@ -145,33 +146,40 @@ a.theme-btn
     +res-bl(ms)
         padding: 8px 25px
     &.style-two
-        background: white
+        background: $primary-color
+        color: $heading-color
         border: 1px solid $border-color
         &:hover
-            background: $primary-color
-            border-color: $primary-color
-    &.style-three
-        color: #CBCBCB
-        background: $heading-color
-        border: 1px solid $border-color
-        &:hover
+            background: white
             color: $heading-color
-            background: $secondary-color
-            border-color: $secondary-color
+            border-color: $border-color
+    &.style-three
+        background: $primary-color
+        color: $heading-color
+        border: 1px solid $border-color
+        &:hover
+            background: white
+            color: $heading-color
+            border-color: $border-color
     &.color-white:not(:hover)
-        color: white
+        color: $heading-color
     &.bgc-secondary:not(:hover)
-        background: $secondary-color
+        background: $primary-color
+        color: $heading-color
     &.bgc-primary:not(:hover)
         background: $primary-color
+        color: $heading-color
     &.bgc-transparent:not(:hover)
-        background: transparent
-    &.hover-primary:hover
         background: $primary-color
-        border-color: $primary-color
+        color: $heading-color
+    &.hover-primary:hover
+        background: white
+        color: $heading-color
+        border-color: $border-color
     &.hover-secondary:hover
-        background: $secondary-color
-        border-color: $secondary-color
+        background: white
+        color: $heading-color
+        border-color: $border-color
 
 /* Read More */
 .read-more

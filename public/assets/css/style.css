@@ -405,7 +405,8 @@ a.theme-btn {
     transform: translateY(50%); }
   .theme-btn:hover,
   a.theme-btn:hover {
-    background: white; }
+    background: white;
+    color: var(--devgenix-heading-color); }
     .theme-btn:hover span,
     a.theme-btn:hover span {
       opacity: 0;
@@ -432,42 +433,49 @@ a.theme-btn {
       padding: 8px 25px; } }
   .theme-btn.style-two,
   a.theme-btn.style-two {
-    background: white;
+    background: var(--devgenix-primary-color);
+    color: var(--devgenix-heading-color);
     border: 1px solid var(--devgenix-border-color); }
     .theme-btn.style-two:hover,
     a.theme-btn.style-two:hover {
-      background: var(--devgenix-primary-color);
-      border-color: var(--devgenix-primary-color); }
+      background: white;
+      color: var(--devgenix-heading-color);
+      border-color: var(--devgenix-border-color); }
   .theme-btn.style-three,
   a.theme-btn.style-three {
-    color: #CBCBCB;
-    background: var(--devgenix-heading-color);
+    background: var(--devgenix-primary-color);
+    color: var(--devgenix-heading-color);
     border: 1px solid var(--devgenix-border-color); }
     .theme-btn.style-three:hover,
     a.theme-btn.style-three:hover {
+      background: white;
       color: var(--devgenix-heading-color);
-      background: var(--devgenix-secondary-color);
-      border-color: var(--devgenix-secondary-color); }
+      border-color: var(--devgenix-border-color); }
   .theme-btn.color-white:not(:hover),
   a.theme-btn.color-white:not(:hover) {
-    color: white; }
+    color: var(--devgenix-heading-color); }
   .theme-btn.bgc-secondary:not(:hover),
   a.theme-btn.bgc-secondary:not(:hover) {
-    background: var(--devgenix-secondary-color); }
+    background: var(--devgenix-primary-color);
+    color: var(--devgenix-heading-color); }
   .theme-btn.bgc-primary:not(:hover),
   a.theme-btn.bgc-primary:not(:hover) {
-    background: var(--devgenix-primary-color); }
+    background: var(--devgenix-primary-color);
+    color: var(--devgenix-heading-color); }
   .theme-btn.bgc-transparent:not(:hover),
   a.theme-btn.bgc-transparent:not(:hover) {
-    background: transparent; }
+    background: var(--devgenix-primary-color);
+    color: var(--devgenix-heading-color); }
   .theme-btn.hover-primary:hover,
   a.theme-btn.hover-primary:hover {
-    background: var(--devgenix-primary-color);
-    border-color: var(--devgenix-primary-color); }
+    background: white;
+    color: var(--devgenix-heading-color);
+    border-color: var(--devgenix-border-color); }
   .theme-btn.hover-secondary:hover,
   a.theme-btn.hover-secondary:hover {
-    background: var(--devgenix-secondary-color);
-    border-color: var(--devgenix-secondary-color); }
+    background: white;
+    color: var(--devgenix-heading-color);
+    border-color: var(--devgenix-border-color); }
 
 /* Read More */
 .read-more {
@@ -1098,10 +1106,13 @@ a.theme-btn {
   .home-four .work-step-item:not(:hover) {
     background-color: #EBFFF1; }
   .home-four .theme-btn.style-two:not(:hover) {
-    color: var(--devgenix-primary-color);
-    border-color: var(--devgenix-primary-color); }
+    background: var(--devgenix-primary-color);
+    color: var(--devgenix-heading-color);
+    border-color: var(--devgenix-border-color); }
   .home-four .theme-btn.style-two:hover {
-    color: white; }
+    background: white;
+    color: var(--devgenix-heading-color);
+    border-color: var(--devgenix-border-color); }
   .home-four .scroll-top {
     background: white; }
   .home-four .work-step-item:not(:hover) .number {
@@ -8144,7 +8155,7 @@ blockquote {
     padding-top: 9px;
     padding-bottom: 9px; }
     .pricing-item .theme-btn:hover {
-      color: white; }
+      color: var(--devgenix-heading-color); }
   .pricing-item .list-style-two.small li {
     font-size: 14px;
     font-weight: 400; }
@@ -8203,10 +8214,10 @@ blockquote {
         color: var(--devgenix-primary-color); }
       .pricing-item.style-two:hover .text {
         border-bottom-color: rgba(255, 255, 255, 0.2); }
-      .pricing-item.style-two:hover .theme-btn {
-        color: var(--devgenix-heading-color);
-        background: var(--devgenix-primary-color);
-        border-color: var(--devgenix-primary-color); }
+              .pricing-item.style-two:hover .theme-btn {
+          color: var(--devgenix-heading-color);
+          background: white;
+          border-color: var(--devgenix-border-color); }
 
 /*******************************************************/
 /**************** ## Cart Checkout Area ****************/
@@ -9274,8 +9285,9 @@ blockquote {
     transition: 0.5s; }
   .dark-version .theme-btn.style-two:not(:hover),
   .dark-version a.theme-btn.style-two:not(:hover) {
-    color: var(--devgenix-base-color);
-    background: transparent; }
+    background: var(--devgenix-primary-color);
+    color: var(--devgenix-heading-color);
+    border-color: var(--devgenix-border-color); }
   .dark-version .slick-dots li {
     background-color: #9E9E9E; }
     .dark-version .slick-dots li:before {
@@ -9283,7 +9295,9 @@ blockquote {
   .dark-version .pricing-item:hover .theme-btn.style-two,
   .dark-version .contact-form.style-two .theme-btn.style-two,
   .dark-version .blog-item.style-four .content .blog-meta li:not(:first-child):before {
-    background: white; }
+    background: white;
+    color: var(--devgenix-heading-color);
+    border-color: var(--devgenix-border-color); }
   .dark-version .work-step-item .number {
     border: 1px solid var(--devgenix-border-color); }
   .dark-version .work-process-item-two:not(:hover) .arrow img {
@@ -9300,7 +9314,9 @@ blockquote {
   .dark-version .pricing-item.style-two .text {
     border-color: rgba(0, 0, 0, 0.2); }
   .dark-version .pricing-item.style-two:hover .theme-btn {
-    border-color: var(--devgenix-heading-color); }
+    background: white;
+    color: var(--devgenix-heading-color);
+    border-color: var(--devgenix-border-color); }
   @media only screen and (max-width: 991px) {
     .dark-version .main-menu .navbar-collapse > ul {
       background: var(--devgenix-heading-color); } }
