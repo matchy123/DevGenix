@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
           data-aos-offset={50}
         >
           <span className="subtitle mt-10 mb-15">Why Choose Us</span>
-          <h2>Why Choose Ridda Agency</h2>
+                          <h2>Why Choose DevGenix Agency</h2>
         </div>
         <Tab.Container defaultActiveKey={"tabOne1"}>
           <div

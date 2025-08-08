@@ -180,7 +180,7 @@ const page = () => {
                     About Agency
                   </span>
                   <h2>
-                    Welcome Ridda Video Marketing Agency to grow your business
+                    Welcome DevGenix Video Marketing Agency to grow your business
                   </h2>
                 </div>
                 <p>
@@ -557,7 +557,7 @@ const page = () => {
               <div className="why-choose-left py-100 d-flex flex-column h-100 align-items-start">
                 <div className="section-title mb-45">
                   <span className="subtitle mt-10 mb-15">Why Choose Us?</span>
-                  <h2>Why People Choose Our Ridda Agency Service</h2>
+                  <h2>Why People Choose Our DevGenix Agency Service</h2>
                 </div>
                 <div className="text mt-auto">
                   Video marketing has become a powerful tool for businesses to

@@ -192,7 +192,7 @@ const FooterMenu = () => {
             <div className="col-lg-5">
               {/* <div className="copyright-text text-center text-lg-start">
                 <p>
-                  Copyright © <Link href="/">Ridda</Link>, all rights reserved.
+                  Copyright © <Link href="/">DevGenix</Link>, all rights reserved.
                 </p>
               </div> */}
             </div>
@@ -359,7 +359,7 @@ const Footer1 = () => {
             <div className="col-lg-5">
               {/* <div className="copyright-text text-center text-lg-start">
                 <p>
-                  Copyright © <Link href="/">Ridda</Link>, all rights reserved.
+                  Copyright © <Link href="/">DevGenix</Link>, all rights reserved.
                 </p>
               </div> */}
             </div>
@@ -550,7 +550,7 @@ const Footer3 = () => {
             <div className="col-lg-5">
               {/* <div className="copyright-text text-center text-lg-start">
                 <p>
-                  Copyright © <Link href="/">Ridda</Link>, all rights reserved.
+                  Copyright © <Link href="/">DevGenix</Link>, all rights reserved.
                 </p>
               </div> */}
             </div>
@@ -653,7 +653,7 @@ const Footer5 = () => {
             <div className="col-md-9 text-center text-lg-end">
               {/* <div className="copyright-text text-center text-md-end">
                 <p>
-                  Copyright © <Link href="/">Ridda</Link>, all rights reserved.
+                  Copyright © <Link href="/">DevGenix</Link>, all rights reserved.
                 </p>
               </div> */}
             </div>
