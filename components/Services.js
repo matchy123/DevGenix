@@ -6,7 +6,7 @@ const Services = ({ extraClass = "" }) => {
       id: 1,
       image: "assets/images/services/service-timeline1.jpg",
       title: "Web Design",
-      link: "/", // keep as is
+      link: "/service-details",
     },
     {
       id: 2,

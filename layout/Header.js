@@ -47,7 +47,7 @@ const Menu = ({ logo = "assets/images/logos/logo.png", menus }) => {
         >
             <ul className="navigation clearfix">
             <li>
-              <Link href="/">Web Design</Link>
+              <Link href="/service-details">Web Design</Link>
                       </li>
                       <li>
                         <Link href="/index5">Web Development</Link>
